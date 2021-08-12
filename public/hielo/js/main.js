@@ -257,7 +257,8 @@ var settings = {
 		var	$window 	= $(window),
 			$body 		= $('body'),
 			$header 	= $('#header'),
-			$banner 	= $('.banner');
+			$banner 	= $('#banner_1');
+			$banner2 	= $('#banner_2');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -278,6 +279,8 @@ var settings = {
 
 		// Banner.
 			$banner._slider(settings.banner);
+
+			$banner2._slider(settings.banner);
 
 		// Menu.
 			$('#menu')
@@ -309,6 +312,20 @@ var settings = {
 				});
 
 			}
+
+			if ($banner2.length > 0
+				&&	$header.hasClass('alt')) {
+	
+					$window.on('resize', function() { $window.trigger('scroll'); });
+	
+					$banner2.scrollex({
+						bottom:		$header.outerHeight(),
+						terminate:	function() { $header.removeClass('alt'); },
+						enter:		function() { $header.addClass('alt'); },
+						leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); }
+					});
+	
+				}
 
 	});
 

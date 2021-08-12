@@ -1,5 +1,5 @@
 @if (Route::currentRouteName() == 'es')
-<section class="banner full">
+<section id = "banner_1" class="banners full">
 	<article>
 		<img src="{{ asset('images/soporte_tecnico_sitio_bg.jpg')}}" alt="soporte_tecnico_sitio_bg.jpg" />
 		<div class="inner">

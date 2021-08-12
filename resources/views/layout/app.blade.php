@@ -8,6 +8,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- Styles -->
 		<link rel="stylesheet" href="{{ asset('hielo/css/main.css') }}" />
+		<link rel="stylesheet" href="{{ asset('css/app.css') }}" />
         @livewireStyles
 	</head>
 	<body>
@@ -21,6 +22,8 @@
             @yield('servicios')
 		<!-- nosotros -->
 			@yield('nosotros')
+		<!-- proyectos -->
+			@yield('proyectos')
 		<!-- Mapa -->
             @yield('mapa')
 		<!-- Footer -->
@@ -32,6 +35,7 @@
 			<script src="{{ asset('hielo/js/skel.min.js') }}"></script>
 			<script src="{{ asset('hielo/js/util.js') }}"></script>
 			<script src="{{ asset('hielo/js/main.js') }}"></script>
+			<script src="{{ asset('js/app.js') }}"></script>
             @livewireScripts
 	</body>
 </html>

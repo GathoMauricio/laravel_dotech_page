@@ -6,6 +6,8 @@
 @section('banner',view('sections.banner'))
 @section('servicios',view('sections.servicios'))
 @section('nosotros',view('sections.nosotros'))
+@section('proyectos',view('sections.proyectos'))
+
 @section('mapa',view('sections.mapa'))
 
 @section('footer',view('layout.footer'))
