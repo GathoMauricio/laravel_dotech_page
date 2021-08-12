@@ -1,4 +1,4 @@
-<section id="three" class="wrapper style2">
+<section id="titulo_proyectos" class="wrapper style2">
     <header class="align-center">
             <h2>PROYECTOS</h2>
             <p>Algunos de nuestros Proyectos...</p>

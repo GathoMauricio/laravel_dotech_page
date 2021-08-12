@@ -7,6 +7,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- Styles -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="{{ asset('hielo/css/main.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/app.css') }}" />
         @livewireStyles
@@ -24,6 +25,10 @@
 			@yield('nosotros')
 		<!-- proyectos -->
 			@yield('proyectos')
+		<!-- clientes -->
+			@yield('clientes')
+		<!-- exitos -->
+			@yield('exitos')
 		<!-- Mapa -->
             @yield('mapa')
 		<!-- Footer -->
@@ -31,6 +36,7 @@
 
 		<!-- Scripts -->
             <script src="{{ asset('hielo/js/jquery.min.js') }}"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 			<script src="{{ asset('hielo/js/jquery.scrollex.min.js') }}"></script>
 			<script src="{{ asset('hielo/js/skel.min.js') }}"></script>
 			<script src="{{ asset('hielo/js/util.js') }}"></script>

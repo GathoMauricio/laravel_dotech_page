@@ -1,4 +1,4 @@
-<section id="two" class="wrapper style3">
+<section id="titulo_nosotros" class="wrapper style3">
 	<div class="inner">
 		<header class="align-center">
             <h2>A cerca de nosotros</h2>

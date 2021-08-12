@@ -7,6 +7,8 @@
 @section('servicios',view(Route::currentRouteName().'.sections.servicios'))
 @section('nosotros',view(Route::currentRouteName().'.sections.nosotros'))
 @section('proyectos',view(Route::currentRouteName().'.sections.proyectos'))
+@section('clientes',view(Route::currentRouteName().'.sections.clientes'))
+@section('exitos',view(Route::currentRouteName().'.sections.exitos'))
 @section('mapa',view(Route::currentRouteName().'.sections.mapa'))
 
 @section('footer',view(Route::currentRouteName().'.layout.footer'))
