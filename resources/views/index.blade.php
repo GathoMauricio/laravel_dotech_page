@@ -1,13 +1,12 @@
-@extends('layout.app')
+@extends(Route::currentRouteName().'.layout.app')
 
-@section('header',view('layout.header'))
-@section('nav',view('layout.nav'))
+@section('header',view(Route::currentRouteName().'.layout.header'))
+@section('nav',view(Route::currentRouteName().'.layout.nav'))
 
-@section('banner',view('sections.banner'))
-@section('servicios',view('sections.servicios'))
-@section('nosotros',view('sections.nosotros'))
-@section('proyectos',view('sections.proyectos'))
+@section('banner',view(Route::currentRouteName().'.sections.banner'))
+@section('servicios',view(Route::currentRouteName().'.sections.servicios'))
+@section('nosotros',view(Route::currentRouteName().'.sections.nosotros'))
+@section('proyectos',view(Route::currentRouteName().'.sections.proyectos'))
+@section('mapa',view(Route::currentRouteName().'.sections.mapa'))
 
-@section('mapa',view('sections.mapa'))
-
-@section('footer',view('layout.footer'))
+@section('footer',view(Route::currentRouteName().'.layout.footer'))

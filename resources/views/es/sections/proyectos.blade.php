@@ -1,5 +1,3 @@
-@if (Route::currentRouteName() == 'es')
-
 <section id="three" class="wrapper style2">
     <header class="align-center">
             <h2>PROYECTOS</h2>
@@ -445,6 +443,3 @@
     <a href="javascript:void(0)" onclick = "mostrarMasProyectos()" class="button special fit small">Mostrar más</a>
 </p>
 </section>
-@endif
-
-<!-- TODO: Proyectos en ingle-->

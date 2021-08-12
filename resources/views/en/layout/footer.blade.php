@@ -1,4 +1,3 @@
-<!-- Footer -->
 <footer id="footer">
 	<div class="container">
 		<ul class="icons">
@@ -8,14 +7,7 @@
 			<li><a href="mailto:contacto@dotredes.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 		</ul>
 	</div>
-    @if (Route::currentRouteName() == 'es')
-	<div class="copyright">
-		{{ date('Y') }} &copy; DOTECH. Todos los derechos reservados.
-	</div>
-    @endif
-    @if (Route::currentRouteName() == 'en')
 	<div class="copyright">
 		{{ date('Y') }} &copy; DOTECH. All rights reserved.
 	</div>
-    @endif
 </footer>
