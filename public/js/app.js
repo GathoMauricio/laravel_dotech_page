@@ -1866,6 +1866,10 @@ window.mostrarMasProyectos = function () {
   $("#seccion_mostrar_mas").css('display', 'none');
 };
 
+window.formularioContacto = function () {
+  $("#modal_contacto").modal();
+};
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
