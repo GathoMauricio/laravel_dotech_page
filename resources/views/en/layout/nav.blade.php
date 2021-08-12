@@ -11,7 +11,7 @@
         <li>
         <a href="javascript:void(0)" onclick="seleccionarIdioma('es');">
             CHANGE LANGUAGE &nbsp;&nbsp;
-            <img src="{{ asset('images/bandera_MEX.png') }}" width="20"/> 
+            <img src="{{ asset('images/bandera_mex.png') }}" width="20"/> 
         </a>
         </li>
 	</ul>

@@ -39,7 +39,7 @@
                                                     <br/>
                                                     visita
                                                 </td>
-                                                <td width = "80%">
+                                                <td width = "60%">
                                                     incluye todos los servicios necesarios para dejar el equipo funcionando en óptimas condiciones: 
                                                     reparación de sistema operativo reinstalación de software, formateo, etc. 
                                                     Incluye respaldo de información indicado por el usuario máximo 5GB, 

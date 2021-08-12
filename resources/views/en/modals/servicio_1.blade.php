@@ -34,7 +34,7 @@
                                                     <br/>
                                                     visit
                                                 </td>
-                                                <td width = "80%">
+                                                <td width = "60%">
                                                     It includes all the necessary services to keep the equipment running in optimal conditions: repair of the operating system, reinstallation of software, formatting, etc. Includes backup of information indicated by the user maximum 5GB, the service does not close until the customer is fully satisfied, if it is not resolved on the first visit we will return to resolve it at no cost !!!
                                                 </td>
                                                 <td width = "20%">
