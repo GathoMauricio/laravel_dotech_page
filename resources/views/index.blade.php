@@ -11,7 +11,8 @@
 @section('exitos',view(Route::currentRouteName().'.sections.exitos'))
 @section('mapa',view(Route::currentRouteName().'.sections.mapa'))
 
+@include(Route::currentRouteName().'.modals.servicio_1')
+
 
 @include(Route::currentRouteName().'.modals.contacto')
-
 @section('footer',view(Route::currentRouteName().'.layout.footer'))

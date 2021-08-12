@@ -24,7 +24,7 @@
 									</header>
 									<p> Our Technical Support Service assists the users of your company in problems that arise with their PC 's, laptops, mobile devices, servers, printers, software applications and network connections.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="soporteTecnico();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_1').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>
@@ -41,7 +41,7 @@
 									</header>
 									<p> Do you require a website with specific functionality? Perhaps you need a web application that interfaces with a system in your company. We focus on the development and design of high quality websites.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="softwarePuntoVenta();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_2').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>
@@ -58,7 +58,7 @@
 									</header>
 									<p> Do you need a point of sale or do you require a change of equipment? With DOTECH we have several points of sale that will make the work more practical and simple.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="hadwarePuntoVenta();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_3').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>
@@ -75,7 +75,7 @@
 									</header>
 									<p> Certified installations of structured cabling, fiber optics and all cabling needs for your business.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="cableadoEstructurado();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_4').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>
@@ -92,7 +92,7 @@
 									</header>
 									<p> At DOTECH we have the certifications of the leading brands in video surveillance in addition to being distributors and direct importers of Solutions in the field of electronic information, communication, asset security and high engineering.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="videoVigilancia();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_5').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>
@@ -109,7 +109,7 @@
 									</header>
 									<p> Development of turnkey fire fighting projects with value proposals in quality, time and price.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="redContraIncendios();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_6').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>
@@ -126,7 +126,7 @@
 									</header>
 									<p> Here you will find everything related to Computer Equipment, we offer you products of the main brands, thus providing a guarantee to our customers.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="equipoComputo();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_7').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>
@@ -143,7 +143,7 @@
 									</header>
 									<p>Backup your information and stop worrying no matter if it is Windows, OS, Android, IOS, Linux with our solution you are always backed in real time as cheap as 50 GB for 5 USD.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="respaldoNube();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_8').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>
@@ -160,7 +160,7 @@
 									</header>
 									<p>We host your website, applications, Databases, we have servers inside and outside the national territory that comply with all international standards of security, availability, etc.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="hospedajeWeb();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_9').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>
@@ -177,7 +177,7 @@
 									</header>
 									<p>At DOTECH we have all kinds of access control: Proximity, Magnetic, Biometric. Ready to install in your office. If you already have one and cannot configure it, we will help you.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="controlAcceso();" class="button alt">Learn More</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_10').modal();" class="button alt">Learn More</a>
 									</footer>
 								</div>
 							</div>

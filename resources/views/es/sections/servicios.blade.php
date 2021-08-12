@@ -23,7 +23,7 @@
 									</header>
 									<p> Nuestro Servicio de soporte técnico asiste a los usuarios de su empresa en problemas que se le presenten con sus PC ’s, laptops, dispositivos móviles, servidores, impresoras, aplicaciones de software y conexiones de red.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="soporteTecnico();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_1').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
@@ -40,7 +40,7 @@
 									</header>
 									<p> ¿Requiere un sitio Web con una funcionalidad específica? Tal vez necesita una aplicación Web que interactúe con un sistema en su empresa. Nos enfocamos en el desarrollo y diseño de sitios Web de alta calidad .</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="softwarePuntoVenta();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_2').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
@@ -57,7 +57,7 @@
 									</header>
 									<p> Necesitas un punto de venta o requieres un cambio de equipo? con DOTECH contamos con diversos punto de venta que le harán los trabajos mas prácticos y sencillos.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="hadwarePuntoVenta();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_3').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
@@ -74,7 +74,7 @@
 									</header>
 									<p> Instalaciones Certificadas de cableado estructurado, fibra optica y todas las necesidades de cableado para su negocio.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="cableadoEstructurado();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_4').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
@@ -91,7 +91,7 @@
 									</header>
 									<p> En DOTECH contamos con las certificaciones de las marcas lideres en vídeo vigilancia además de ser distribuidores e importadores directos de Soluciones en el ámbito de la información electrónica, la comunicación, la seguridad patrimonial y alta ingeniería</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="videoVigilancia();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_5').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
@@ -108,7 +108,7 @@
 									</header>
 									<p> Desarrollo de proyectos contra incendio llave en mano con propuestas de valor en calidad, tiempo y precio.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="redContraIncendios();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_6').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
@@ -125,7 +125,7 @@
 									</header>
 									<p> Aquí encontrara todo lo referente a Equipo de computo, te ofrecemos productos de las principales marcas, brindado así garantía a nuestros clientes.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="equipoComputo();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_7').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
@@ -142,7 +142,7 @@
 									</header>
 									<p> Respalda tu informacion y deja de preocuparte no importa si es Windows, OS, Android, IOS, Linux con nuestra solucion siempre estas respaldado en tiempo real tan barato como 50 GB por 5 USD.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="respaldoNube();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_8').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
@@ -159,7 +159,7 @@
 									</header>
 									<p> Hospedamos su pagina web, aplicaciones, Bases de Datos, contamos con servidores dentro y fuera del territorio nacional que cumplen con todas las normas internacionales de seguridad, disponibilidad, etc.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="hospedajeWeb();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_9').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
@@ -176,7 +176,7 @@
 									</header>
 									<p> En DOTECH tenemos todo tipo de control de acceso: Proximidad, Magnéticos, Biométricos. Listos para instalarlos en tu oficina. Si ya tienes uno y no puedes configurarlo, nosotros te ayudamos.</p>
 									<footer class="align-center">
-										<a href="javascript:void(0)" onclick="controlAcceso();" class="button alt">Ver más</a>
+										<a href="javascript:void(0)" onclick="$('#modal_servicio_10').modal();" class="button alt">Ver más</a>
 									</footer>
 								</div>
 							</div>
