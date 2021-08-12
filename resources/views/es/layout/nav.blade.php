@@ -7,6 +7,11 @@
         <li><a href="#titulo_clientes" onclick="menuClientes();">NUESTROS CLIENTES</a></li>
         <li><a href="#titulo_casos" onclick="menuExitos();">CASOS DE ÉXITO</a></li>
         <li><a href="#titulo_contacto" onclick="menuContacto();">CONTACTO</a></li>
-        <li><a href="#titulo_companias" onclick="menuCompanhias();">NUESTRAS COMPAÑIAS</a></li>
+        <li>
+        <a href="javascript:void(0)" onclick="seleccionarIdioma('en');">
+            CAMBIAR IDIOMA &nbsp;&nbsp;
+            <img src="{{ asset('images/bandera_usa.png') }}" width="20"/> 
+        </a>
+        </li>
 	</ul>
 </nav>
