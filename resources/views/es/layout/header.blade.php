@@ -8,11 +8,3 @@
     </div>
     <a href="#menu">Menú</a>
 </header>
-
-<style>
-@media (min-width: 320px) and (max-width: 480px) {
-    #slogan-text{
-        display:none;
-    }
-}
-</style>

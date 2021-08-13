@@ -16,3 +16,8 @@
 	color: green;
 	background-color: transparent;
 }
+@media (min-width: 200px) and (max-width: 480px) {
+    #slogan-text{
+        display:none;
+    }
+}
