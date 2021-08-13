@@ -11,3 +11,6 @@
 		{{ date('Y') }} &copy; DOTECH. All rights reserved.
 	</div>
 </footer>
+<div class="whatsapp-fixed">
+	<a href="https://web.whatsapp.com/send?phone=5215554159076&amp;text=¡Hello! I am interested in your service" target="_blank"><span class="icon fa-whatsapp"></span></a>
+</div>
