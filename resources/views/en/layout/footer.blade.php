@@ -8,9 +8,9 @@
 		</ul>
 	</div>
 	<div class="copyright">
-		{{ date('Y') }} &copy; DOTECH. All rights reserved.
+		{{ date('Y') }} &copy; DOTECH. Todos los derechos reservados.
 	</div>
 </footer>
 <div class="whatsapp-fixed">
-	<a href="https://web.whatsapp.com/send?phone=5215554159076&amp;text=¡Hello! I am interested in your service" target="_blank"><span class="icon fa-whatsapp"></span></a>
+	<a href="https://web.whatsapp.com/send?phone=5215554159076&amp;text=¡Hola! Me interesa tu servicio" target="_blank"><span class="icon fa-whatsapp"></span></a>
 </div>

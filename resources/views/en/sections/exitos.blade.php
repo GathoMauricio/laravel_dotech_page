@@ -1,7 +1,7 @@
 <section id="titulo_casos" class="wrapper style3">
 	<div class="inner">
 		<header class="align-center">
-            <h2>SUCCESS STORIES</h2>
+            <h2>CASOS DE EXITOS</h2>
 		</header>
         <div class="container">
             <div class="row">
