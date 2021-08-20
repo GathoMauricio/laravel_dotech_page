@@ -2,7 +2,7 @@
 
      <section id="contact" class="dark">
       <header class="title">
-        <h2>Contacto <span></span></h2>
+        <h2>Contact <span></span></h2>
         <p></p>
       </header>
 
@@ -13,22 +13,22 @@
                 @csrf
               <div class="row">
                 <div class="col-md-4">
-                  <input name = "nombre" type="text" class="form-control" placeholder="Nombre" required/>
+                  <input name = "nombre" type="text" class="form-control" placeholder="Name" required/>
                 </div>
                 <div class="col-md-4">
                   <input name = "email" type="email" class="form-control" placeholder="Email"required/>
                 </div>
                 <div class="col-md-4">
-                  <input name = "telefono" type="text" class="form-control" placeholder="Teléfono"required/>
+                  <input name = "telefono" type="text" class="form-control" placeholder="Phone"required/>
                 </div>
                 <div class="col-md-12">
-                  <input name = "asunto" type="text" class="form-control" placeholder="Asunto"required/>
+                  <input name = "asunto" type="text" class="form-control" placeholder="Subject"required/>
                 </div>
                 <div class="col-md-12">
-                  <textarea name = "mensaje" class="form-control" rows="3" placeholder="Mensaje"required></textarea>
+                  <textarea name = "mensaje" class="form-control" rows="3" placeholder="Message"required></textarea>
                 </div>
                 <div class="col-md-12">
-                  <button class="btn btn-default submit">Enviar mensaje</button>
+                  <button class="btn btn-default submit">Send message</button>
                 </div>
               </div>
             </form>
@@ -38,7 +38,7 @@
             <address>
                 <span><i class="fa fa-map-marker fa-lg"></i> Bahía Palmas 33, Verónica Anzúres, 11300 Ciudad de México, D.F México
                 <br/><br/>
-                Oficina de Querétaro: Lázaro Cárdenas 258, 76177 Querétaro, México.</span>
+                Querétaro Office: Lázaro Cárdenas 258, 76177 Querétaro, México.</span>
                 <span><i class="fa fa-phone fa-lg"></i> <a href = "tel:525555460615">52 55 55460615 Ext.109</a></span>
                 <span><i class="fa fa-envelope-o fa-lg"></i> <a href="mailto:contacto@dotredes.com">contacto&#64;dotredes.com</a></span>
                 <span><i class="fa fa-globe fa-lg"></i> <a href="https://dotredes.com">dotredes.com</a></span>

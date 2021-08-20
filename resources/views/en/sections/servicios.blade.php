@@ -1,8 +1,8 @@
 <!-- SERVICIOS -->
     <section id="team" class="light">
       <header class="title">
-        <h2>Nuestros <span>Servicios</span></h2>
-        <p>NUESTRAS SOLUCIONES DE TI HAN SIDO DISEÑADAS PARA BRINDAR SERVICIOS APROPIADOS EN EL SOPORTE A LOS USUARIOS DE SU NEGOCIO SIEMPRE BUSCANDO SU SATISFACCIÓN TOTAL CON UN SERVICIO A LA MEDIDA TOMANDO EN CUENTA SUS POSIBILIDADES Y NECESIDADES SIN PERDER DE VISTA LA EFICIENCIA Y RENTABILIDAD.</p>
+        <h2>Our <span>Services</span></h2>
+        <p>Our IT Solutions have been designed to provide appropriate services to support your business users, always seeking their total satisfaction with a tailored service, taking into account their possibilities and needs without losing sight of efficiency and profitability.</p>
       </header>
       
       <div class="container">
@@ -16,8 +16,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>SOPORTE TECNICO EN SITIO Y REMOTO NACIONAL</h5></a>
-                <p>Nuestro Servicio de soporte técnico asiste a los usuarios de su empresa en problemas que se le presenten con sus PC ’s, laptops, dispositivos móviles, servidores, impresoras, aplicaciones de software y conexiones de red.</p>
+                <a href = "#"><h5>National technical support on site and remote</h5></a>
+                <p>Our Technical Support Service assists the users of your company in problems that arise with their PC 's, laptops, mobile devices, servers, printers, software applications and network connections.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -38,8 +38,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>SOFTWARE DE PUNTO DE VENTA – TCPOS</h5></a>
-                <p>¿Requiere un sitio Web con una funcionalidad específica? Tal vez necesita una aplicación Web que interactúe con un sistema en su empresa. Nos enfocamos en el desarrollo y diseño de sitios Web de alta calidad .</p>
+                <a href = "#"><h5>Point of sale software – TCPOS</h5></a>
+                <p>Do you require a website with specific functionality? Perhaps you need a web application that interfaces with a system in your company. We focus on the development and design of high quality websites.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -60,8 +60,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>HARDWARE DE PUNTO DE VENTA</h5></a>
-                <p>Necesitas un punto de venta o requieres un cambio de equipo? con DOTECH contamos con diversos punto de venta que le harán los trabajos mas prácticos y sencillos.</p>
+                <a href = "#"><h5>Point of sale hardware</h5></a>
+                <p>Do you need a point of sale or do you require a change of equipment? With DOTECH we have several points of sale that will make the work more practical and simple.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -82,8 +82,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>CABLEADO ESTRUCTURADO, FIBRA.</h5></a>
-                <p>Instalaciones Certificadas de cableado estructurado, fibra optica y todas las necesidades de cableado para su negocio.</p>
+                <a href = "#"><h5>STRUCTURED CABLING, FIBER</h5></a>
+                <p>Certified installations of structured cabling, fiber optics and all cabling needs for your business.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -108,8 +108,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>VIDEO VIGILANCIA</h5></a>
-                <p>En DOTECH contamos con las certificaciones de las marcas lideres en vídeo vigilancia además de ser distribuidores e importadores directos de Soluciones en el ámbito de la información electrónica, la comunicación, la seguridad patrimonial y alta ingeniería</p>
+                <a href = "#"><h5>VIDEO SURVEILLANCE</h5></a>
+                <p>At DOTECH we have the certifications of the leading brands in video surveillance in addition to being distributors and direct importers of Solutions in the field of electronic information, communication, asset security and high engineering./p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -130,8 +130,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>RED CONTRA INCENDIOS</h5></a>
-                <p>Desarrollo de proyectos contra incendio llave en mano con propuestas de valor en calidad, tiempo y precio.</p>
+                <a href = "#"><h5>FIRE NETWORK</h5></a>
+                <p>Development of turnkey fire fighting projects with value proposals in quality, time and price.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -152,8 +152,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>VENTA EQUIPO DE COMPUTO</h5></a>
-                <p>Aquí encontrara todo lo referente a Equipo de computo, te ofrecemos productos de las principales marcas, brindado así garantía a nuestros clientes.</p>
+                <a href = "#"><h5>SALE OF COMPUTER EQUIPMENT</h5></a>
+                <p>Here you will find everything related to Computer Equipment, we offer you products of the main brands, thus providing a guarantee to our customers.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -174,8 +174,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>RESPALDO EN LA NUBE</h5></a>
-                <p>Respalda tu informacion y deja de preocuparte no importa si es Windows, OS, Android, IOS, Linux con nuestra solucion siempre estas respaldado en tiempo real tan barato como 50 GB por 5 USD.</p>
+                <a href = "#"><h5>CLOUD BACKUP</h5></a>
+                <p>Backup your information and stop worrying no matter if it is Windows, OS, Android, IOS, Linux with our solution you are always backed in real time as cheap as 50 GB for 5 USD.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -200,8 +200,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>HOSPEDAJE WEB</h5></a>
-                <p>Hospedamos su pagina web, aplicaciones, Bases de Datos, contamos con servidores dentro y fuera del territorio nacional que cumplen con todas las normas internacionales de seguridad, disponibilidad, etc.</p>
+                <a href = "#"><h5>WEB HOSTING</h5></a>
+                <p>We host your website, applications, Databases, we have servers inside and outside the national territory that comply with all international standards of security, availability, etc.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -222,8 +222,8 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>CONTROL DE ACCESO</h5></a>
-                <p>En DOTECH tenemos todo tipo de control de acceso: Proximidad, Magnéticos, Biométricos. Listos para instalarlos en tu oficina. Si ya tienes uno y no puedes configurarlo, nosotros te ayudamos.</p>
+                <a href = "#"><h5>ACCESS CONTROL</h5></a>
+                <p>At DOTECH we have all kinds of access control: Proximity, Magnetic, Biometric. Ready to install in your office. If you already have one and cannot configure it, we will help you.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">

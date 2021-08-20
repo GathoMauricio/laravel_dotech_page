@@ -11,8 +11,8 @@
         <div class="row">
           <ul id="filters" class="list-inline">
             <!--<li data-filter="all" class="filter"><h3>Todo</h3></li>-->
-            <li id ="link_proyectos" data-filter=".proyectos" class="filter"><h3>Proyectos</h3></li> 
-            <li id = "link_exitos" data-filter=".exitos" class="filter"><h3>Casos de éxito</h3></li> 
+            <li id ="link_proyectos" data-filter=".proyectos" class="filter"><h3>Projects</h3></li> 
+            <li id = "link_exitos" data-filter=".exitos" class="filter"><h3>Success cases</h3></li> 
             <!--
             <li data-filter=".graphic" class="filter">Graphic</li> 
             <li data-filter=".printing" class="filter">Printing</li> 
@@ -29,113 +29,113 @@
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto1.jpg') }}",
-                      title : "<h5>Equipamiento de dos carriles en caseta de peaje Saltillo-Monterrey</h5>",
+                      title : "<h5>Equipment of two lanes in the Saltillo-Monterrey toll booth</h5>",
                       link : "#",
                       text : ""
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto2.png') }}",
-                      title : "<h5>Proyecto Portico Aforador Autopista Lecheria Chamapa</h5>",
+                      title : "<h5>Portico Aforador Project Lecheria Chamapa Highway</h5>",
                       link : "#",
-                      text : "Proyecto: instalación de armarios exteriores en Pórtico."
+                      text : "Project: installation of exterior cabinets in Portico."
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto3.jpg') }}",
-                      title : "<h5>Pizza danny’s sucursal Monclova</h5>",
+                      title : "<h5>Pizza danny’s Monclova branch</h5>",
                       link : "#",
-                      text : "En DOTECH contamos con diversos punto de venta que le harán los trabajos mas prácticos y sencillos."
+                      text : "At DOTECH we have several points of sale that will make the work more practical and simple."
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto4.jpg') }}",
-                      title : "<h5>Macro Libramiento Guadalajara.</h5>",
+                      title : "<h5>Macro Bypass Guadalajara.</h5>",
                       link : "#",
-                      text : "Vialidad que genera un paso vehicular de 111 kilómetros desde Zapotlanejo hasta Ameca, evitando el tránsito de la zona metropolitana de Guadalajara."
+                      text : "Roadway that generates a vehicle passage of 111 kilometers from Zapotlanejo to Ameca, avoiding the traffic of the metropolitan area of Guadalajara."
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto5.jpeg') }}",
-                      title : "<h5>Autopista Guadalajara Tepic.</h5>",
+                      title : "<h5>Guadalajara Tepic Highway.</h5>",
                       link : "#",
-                      text : "Está ubicada en los Estados de Jalisco y Nayarit, forma parte del Eje Carretero del Pacífico."
+                      text : "It is located in the States of Jalisco and Nayarit, it is part of the Pacific Highway Axis."
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto6.jpg') }}",
-                      title : "<h5>Papa Johns Renvacion de cableado</h5>",
+                      title : "<h5>Papa Johns Wiring Renovation</h5>",
                       link : "#",
-                      text : "Proyecto: Renovacion de Cableado estructurado a 29 Tiendas Papa Johns (250 Nodos)"
+                      text : "Project: Renovation of structured cabling to 29 Papa Johns Stores (250 Nodes)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto7.png') }}",
                       title : "<h5>Silvaform</h5>",
                       link : "#",
-                      text : "Proyecto: Diseño Suministro e Instalación de Red de Voz y Datos CERTIFICADA BELDEN"
+                      text : "Project: Design, Supply and Installation of the BELDEN CERTIFIED Voice and Data Network"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto8.jpg') }}",
                       title : "<h5>Papa Johns Lindavista</h5>",
                       link : "#",
-                      text : "Proyecto: Diseño y puesta a punto de Instalaciones especiales y Tecnologia"
+                      text : "Project: Design and development of special facilities and technology"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto9.jpeg') }}",
-                      title : "<h5>Panel Mensaje Variable Tepic</h5>",
+                      title : "<h5>Variable Message Panel Tepic</h5>",
                       link : "#",
-                      text : "Proyecto: Instalación y puesta a punto de panel de mensaje Variable cimentación e instalación de 108 postes para cámaras de vídeo vigilancia."
+                      text : "Project: Installation and tuning of the variable message panel, foundation and installation of 108 poles for video surveillance cameras."
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto10.jpg') }}",
                       title : "<h5>Video Wall Tienda Real Madrid Polanco</h5>",
                       link : "#",
-                      text : "Proyecto: Soporte a la Configuración desde España para Video Wall Tienda Real Madrid."
+                      text : "Project: Configuration Support from Spain for Real Madrid Store Video Wall."
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto11.jpg') }}",
-                      title : "<h5>Sistema Contra Incendios Starbucks Plaza Delta</h5>",
+                      title : "<h5>Starbucks Plaza Delta Fire System</h5>",
                       link : "#",
-                      text : "Proyecto: Suministro e Instalacion de Equipo Edwards Vigilant contra incendios"
+                      text : "Project: Supply and Installation of Edwards Vigilant Fire Fighting Equipment"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto12.jpg') }}",
-                      title : "<h5>Sin Cola 5LA Movistar Nacional.</h5>",
+                      title : "<h5>Sin Cola 5LA National Movistar.</h5>",
                       link : "#",
-                      text : "Proyecto: Instalación de Aplicativo 5LA en puntos de venta Movistar"
+                      text : "Project: Installation of the 5LA Application in Movistar points of sale"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto13.jpg') }}",
-                      title : "<h5>UNIDAD MEDICA FAMILIAR 17 IMSS MAGDALENA APASCO OAXACA</h5>",
+                      title : "<h5>FAMILY MEDICAL UNIT 17 IMSS MAGDALENA APASCO OAXACA/h5>",
                       link : "#",
-                      text : "Proyecto: Instalaciones Especiales a UMF 56 San Pablo Huitzo Oaxaca"
+                      text : "Project: Special Installations at UMF 56 San Pablo Huitzo Oaxaca"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto14.jpg') }}",
-                      title : "<h5>Unidad Medica Familiar 56 IMSS Huitzo Oaxaca</h5>",
+                      title : "<h5>Family Medical Unit 56 IMSS Huitzo Oaxaca</h5>",
                       link : "#",
-                      text : "Proyecto: Instalaciones Especiales a UMF 56 San Pablo Huitzo Oaxaca"
+                      text : "Project: Special Installations at UMF 56 San Pablo Huitzo Oaxaca"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto15.jpg') }}",
-                      title : "<h5>Estadio Alebrijes de Oaxaca</h5>",
+                      title : "<h5>Alebrijes Stadium of Oaxaca</h5>",
                       link : "#",
-                      text : "Proyecto: Diseño Proyecto Ejecutivo instalaciones especiales estadio de Alebrijes Oaxaca"
+                      text : "Project: Design Executive Project for special facilities Alebrijes Stadium Oaxaca"
                     },{
                       category : "proyectos",
                       image : "{{ asset('images/proyecto16.jpg') }}",
-                      title : "<h5>Instalación Readers Monterrey-Saltillo</h5>",
+                      title : "<h5>Readers Instalation Monterrey-Saltillo Highway</h5>",
                       link : "#",
-                      text : "Proyecto: Instalacions de ITS en el tramo Monterrey Saltillo"
+                      text : "Project: ITS facilities in the Monterrey Saltillo section"
                     }
 
                     ,{

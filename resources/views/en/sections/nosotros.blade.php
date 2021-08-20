@@ -2,8 +2,8 @@
 
     <section id="about" class="light">
       <header class="title">
-        <h2>Acerca de <span>Nosotros</span></h2>
-        <p>Desafiando Retos</p>
+        <h2>About <span>Us</span></h2>
+        <p>Challenging Challenges</p>
       </header>
 
       <div class="container">
@@ -14,23 +14,23 @@
               <div class="big-image" style="background-image:url({{ asset('daraz') }}/images/1.png)"></div>
               -->
               <p>
-                OUTSOURCING TECNOLÓGICO:
+                TECHNOLOGICAL OUTSOURCING:
                 <br/><br/>
-                Olvídese de contrataciones cambio de personal, curvas de aprendizaje. Con nosotros siempre tendrá a la mano personal altamente calificado para dar soporte a su Infraestructura cuando mas lo requiera.
+                Forget hiring, personnel change, learning curves. With us, you will always have highly qualified personnel on hand to support your Infrastructure when you need it most.
                 <br/><br/>
-                PORQUE CON NOSOTROS
+                WHY US?
                 <br/><br/>
-                Tenemos 17 Años en el mercado especializándonos en tecnologías de la Información y comunicaciones TICS. Nuestro equipo esta formado por ingenieros altamente capacitados. Cumplimos con nuestro acuerdo de nivel de servicio. SLA(Service Level Agreement) Costos de TI predefinidos sin sorpresas ni cuotas ocultas. Optimización de recursos, planificación de costos de TI.
-                Generalmente nuestras soluciones generan grandes ahorros. Asesoría tecnológica: asesoramos a nuestros clientes sobre las mejores opciones de inversión de TI de acuerdo a sus requerimientos. Monitoréo permanente, soporte remoto, planes de recuperación de desastres DRP. Soluciones de soporte técnico en sitio o remoto con nuestro Escritorio de Servicio. Sistema de Tickets.
+                We have 17 years in the market specializing in Information Technology and ICT communications. Our team is made up of highly trained engineers. We comply with our service level agreement. SLA (Service Level Agreement) Predefined IT costs without surprises or hidden fees. Resource optimization, IT cost planning.
+                Generally our solutions generate great savings. Technological consulting: we advise our clients on the best IT investment options according to their requirements. Permanent monitoring, remote support, DRP disaster recovery plans. On-site or remote technical support solutions with our Service Desk. Ticket system.
                 <br/><br/>
-                SOLUCIONES EMPRESARIALES:
+                BUSINESS SOLUTIONS:
                 <br/><br/>
-                Nos especializamos en ofrecer soluciones a la medida de su empresa.
+                We specialize in offering solutions tailored to your company.
                 <br/><br/>
-                COBERTURA:
+                COVERAGE:
                 <br/><br/>
-                Tenemos cobertura con oficinas propias y Socios comerciales en la mayoría de las ciudades del país siempre con la garantía de calidad de nuestros servicios.
-                CON NOSOTROS SIEMPRE ESTAS CUBIERTO!!
+                We have coverage with our own offices and business partners in most of the cities of the country, always with the guarantee of the quality of our services.
+                WITH US YOU ARE ALWAYS COVERED !!
                 </p>
             </div>
           </div>
@@ -40,24 +40,24 @@
               <div class="about-content left animated" data-animate="fadeInLeft">
                 <div class="about-icon"><i class="fa fa-leaf"></i></div>
                 <div class="about-detail">
-                  <h4>Misión</h4>
-                  <p>La misión de Tics.PRO es contribuir a la operación eficiente y al desarrollo del Capital Intelectual de las empresas por medio de servicios de excelencia en Infraestructura Informática, conectividad, soporte técnico y servicios Web.</p>
+                  <h4>BUSINESS MISSION</h4>
+                  <p>Our mission is to contribute to the efficient operation and development of the Intellectual Capital of companies through services of excellence in IT Infrastructure, connectivity, technical support and Web services.</p>
                 </div>
               </div>
 
               <div class="about-content left animated" data-animate="fadeInLeft">
                 <div class="about-icon"><i class="fa fa-leaf"></i></div>
                 <div class="about-detail">
-                  <h4>Visión</h4>
-                  <p>Ser una empresa líder en los mercados en que participamos destacada por su credibilidad y eficiencia, con presencia a nivel nacional formada por gente comprometida, entusiasta, exitosa y con profundo sentido humano.</p>
+                  <h4>BUSINESS VISION</h4>
+                  <p>To be a leading company in the markets in which we participate, noted for its credibility and efficiency, with a nationwide presence made up of committed, enthusiastic, successful people with a deep human sense.</p>
                 </div>
               </div>
 
               <div class="about-content left animated" data-animate="fadeInLeft">
                 <div class="about-icon"><i class="fa fa-leaf"></i></div>
                 <div class="about-detail">
-                  <h4>Valores</h4>
-                  <p>Lideramos con el ejemplo. Trabajamos en equipo. Siempre nos esforzamos al máximo para satisfacer al cliente. Nuestras relaciones se basan en honestidad, lealtad y respeto. Somos gente comprometida, positiva, disciplinada y ambiciosa. Nuestra comunicación es abierta, sincera y directa. Ante todo, actuamos con integridad. Servimos con Pasión. Entregamos Calidad. Operamos con Efectividad. Buscamos la Rentabilidad. Valoramos a la persona.</p>
+                  <h4>BUSINESS VALUES</h4>
+                  <p>We lead by example. We work as a team. We always do our best to satisfy the customer. Our relationships are based on honesty, loyalty and respect. We are committed, positive, disciplined and ambitious people. Our communication is open, sincere and direct. Above all, we act with integrity. We serve with passion. We deliver Quality. We Operate Effectively. We seek Profitability. We value the person.</p>
                 </div>
               </div>
             </div>

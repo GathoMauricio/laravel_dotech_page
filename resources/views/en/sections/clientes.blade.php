@@ -2,7 +2,7 @@
 
     <section id="info" class="dark">
       <header class="title">
-        <h2>Nuestros <span>Clientes</span></h2>
+        <h2>Our <span>Clients</span></h2>
         <p></p>
       </header>
 

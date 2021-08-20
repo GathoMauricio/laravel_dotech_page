@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>{{ date('Y') }} &copy; DOTECH. Todos los derechos reservados.</p>
+            <p>{{ date('Y') }} &copy; DOTECH. All right reserved.</p>
           </div>
         </div>
     </div>

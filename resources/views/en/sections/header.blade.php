@@ -21,14 +21,14 @@
 
           <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#header">Inicio</a></li>
-              <li><a href="#team">Servicios</a></li>
-              <li><a href="#about">Nosotros</a></li>
-              <li><a href="#portfolio" onclick = '$("#link_proyectos").click();'>Proyectos</a></li>
-              <li><a href="#portfolio" onclick = '$("#link_exitos").click();'>Éxitos</a></li>
-              <li><a href="#info">Clientes</a></li>
-              <!--<li><a href="#">Compañías</a></li>-->
-              <li><a href="#contact">Contacto</a></li>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#team">Services</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#portfolio" onclick = '$("#link_proyectos").click();'>Projects</a></li>
+              <li><a href="#portfolio" onclick = '$("#link_exitos").click();'>Success</a></li>
+              <li><a href="#info">Clients</a></li>
+              <!--<li><a href="#">Companies</a></li>-->
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div> <!-- /.navbar-collapse -->
         </div> <!-- /.container -->
@@ -51,7 +51,7 @@
 
                     <div class="slider-content">
                       <h1></h1>
-                      <p>TUS ALIADOS TECNOLOGICOS</p>
+                      <p>YOUR TECHNOLOGICAL ALLIES</p>
                     </div>
 
                   </div> <!-- /.col-md-12 -->
@@ -68,7 +68,7 @@
                 </svg>
               </span>
               <div>
-                <span>Anterior</span>
+                <span>Back</span>
                 <h3>...</h3>
                 <p>...</p>
                 <img alt="Previous thumb">
@@ -81,7 +81,7 @@
                 </svg>
               </span>
               <div>
-                <span>Siguiente</span>
+                <span>Next</span>
                 <h3>...</h3>
                 <p>...</p>
                 <img alt="Next thumb">
@@ -94,52 +94,52 @@
         var dataHeader = [
                             {
                               bigImage :"{{ asset('images/soporte_tecnico_sitio_bg.jpg') }}",
-                              title : "SOPORTE TECNICO EN SITIO Y REMOTO NACIONAL",
+                              title : "National technical support on site and remote",
 							  author : "DOTECH"
                             },
                             {
                               bigImage :"{{ asset('images/punto_venta.jpeg') }}",
-                              title : "SOFTWARE DE PUNTO DE VENTA – TCPOS",
+                              title : "Point of sale software – TCPOS",
 							  author : "DOTECH"
                             },
                             {
                               bigImage :"{{ asset('images/punto_venta2.png') }}",
-                              title : "HARDWARE DE PUNTO DE VENTA",
+                              title : "Point of sale hardware",
 							  author : "DOTECH"
                             },
                             {
                               bigImage :"{{ asset('images/cableado_estructurado.jpg') }}",
-                              title : "CABLEADO ESTRUCTURADO, FIBRA",
+                              title : "STRUCTURED CABLING, FIBER",
 							  author : "DOTECH"
                             },
                             {
                               bigImage :"{{ asset('images/video_vigilancia.jpeg') }}",
-                              title : "VIDEO VIGILANCIA",
+                              title : "VIDEO SURVEILLANCE",
 							  author : "DOTECH"
                             },
                             {
                               bigImage :"{{ asset('images/red_contra_incendios.jpg') }}",
-                              title : "RED CONTRA INCENDIOS",
+                              title : "FIRE NETWORK",
 							  author : "DOTECH"
                             },
                             {
                               bigImage :"{{ asset('images/equipo_computo.jpg') }}",
-                              title : "VENTA EQUIPO DE COMPUTO",
+                              title : "SALE OF COMPUTER EQUIPMENT",
 							  author : "DOTECH"
                             },
                             {
                               bigImage :"{{ asset('images/respaldo_nube.jpg') }}",
-                              title : "RESPALDO EN LA NUBE",
+                              title : "CLOUD BACKUP",
 							  author : "DOTECH"
                             },
                             {
                               bigImage :"{{ asset('images/hospedaje_web.jpg') }}",
-                              title : "HOSPEDAJE WEB",
+                              title : "WEB HOSTING",
 							  author : "DOTECH"
                             },
                             {
                               bigImage :"{{ asset('images/control_acceso.jpg') }}",
-                              title : "CONTROL DE ACCESO",
+                              title : "ACCESS CONTROL",
 							  author : "DOTECH"
                             },
                         ],
