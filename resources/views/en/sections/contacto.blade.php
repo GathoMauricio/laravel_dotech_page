@@ -1,11 +1,9 @@
 <!-- FOOTER CONTACT -->
-
      <section id="contact" class="dark">
       <header class="title">
         <h2>Contact <span></span></h2>
         <p></p>
       </header>
-
       <div class="container">
         <div class="row">
           <div class="col-md-8 animated" data-animate="fadeInLeft">
@@ -33,7 +31,6 @@
               </div>
             </form>
           </div>
-
           <div class="col-md-4 animated" data-animate="fadeInRight">
             <address>
                 <span><i class="fa fa-map-marker fa-lg"></i> Bahía Palmas 33, Verónica Anzúres, 11300 Ciudad de México, D.F México
@@ -48,9 +45,8 @@
         </div>
       </div>
     </section>
-    
     @if(Session::has('contacto'))
     <script>
-    alert("Gracias, Su mensaje ha sido recibido");
+    alert("Thank you, Your message has been recived.");
     </script>
     @endif

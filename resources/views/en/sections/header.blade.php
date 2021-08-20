@@ -1,6 +1,5 @@
 <!-- HEADER -->
     <section id="header">
-
       <!-- NAVIGATION -->
       <nav class="navbar navbar-fixed-top navbar-default bottom">
         <div class="container">
@@ -149,5 +148,4 @@
 
       </div><!-- /.header-slide -->
     </section>
-
     <!-- HEADER END -->

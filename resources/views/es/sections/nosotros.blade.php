@@ -10,9 +10,6 @@
         <div class="row table-row">
           <div class="col-sm-6 hidden-xs">
             <div class="section-content">
-            <!--
-              <div class="big-image" style="background-image:url({{ asset('daraz') }}/images/1.png)"></div>
-              -->
               <p>
                 OUTSOURCING TECNOLÓGICO:
                 <br/><br/>

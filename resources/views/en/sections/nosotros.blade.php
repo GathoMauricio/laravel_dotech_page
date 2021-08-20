@@ -1,11 +1,9 @@
 <!-- NOSOTROS -->
-
     <section id="about" class="light">
       <header class="title">
         <h2>About <span>Us</span></h2>
         <p>Challenging Challenges</p>
       </header>
-
       <div class="container">
         <div class="row table-row">
           <div class="col-sm-6 hidden-xs">

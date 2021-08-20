@@ -3,8 +3,8 @@
     <section id="portfolio" class="light">
     <!--
       <header class="title">
-        <h2>Proyectos</h2>
-        <p>Algunos de nuestros Proyectos...</p>
+        <h2></h2>
+        <p></p>
       </header>
         -->
       <div class="container-fluid">
@@ -13,11 +13,6 @@
             <!--<li data-filter="all" class="filter"><h3>Todo</h3></li>-->
             <li id ="link_proyectos" data-filter=".proyectos" class="filter"><h3>Projects</h3></li> 
             <li id = "link_exitos" data-filter=".exitos" class="filter"><h3>Success cases</h3></li> 
-            <!--
-            <li data-filter=".graphic" class="filter">Graphic</li> 
-            <li data-filter=".printing" class="filter">Printing</li> 
-            <li data-filter=".video" class="filter">Video</li> 
-            -->
           </ul>
         </div>
 
