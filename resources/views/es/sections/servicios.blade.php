@@ -16,7 +16,7 @@
               </div>
 
               <h3></h3>
-                <a href = "#"><h5>SOPORTE TECNICO EN SITIO Y REMOTO NACIONAL</h5></a>
+                <a href = "{{ route('es','service_1') }}" target = "_blank"><h5>SOPORTE TECNICO EN SITIO Y REMOTO NACIONAL</h5></a>
                 <p>Nuestro Servicio de soporte técnico asiste a los usuarios de su empresa en problemas que se le presenten con sus PC ’s, laptops, dispositivos móviles, servidores, impresoras, aplicaciones de software y conexiones de red.</p>
             <!--
               <div class="team-social">
