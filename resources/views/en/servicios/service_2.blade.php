@@ -34,7 +34,7 @@
                 </div>
               </div>
         </div>
-
+    </div>
 </section>
 
 @section('header',view(Route::currentRouteName().'.sections.header'))
