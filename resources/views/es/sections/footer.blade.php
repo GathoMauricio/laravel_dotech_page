@@ -9,7 +9,9 @@
 </section>
 
 <div class="whatsapp-fixed">
-	<a href="https://web.whatsapp.com/send?phone=5215554159076&amp;text=¡Hola! Me interesa tu servicio" target="_blank"><span class="fab fa-comment"></span></a>
+	<a href="https://web.whatsapp.com/send?phone=5215554159076&text=Hola,%20Me%20interesa%20su%20servicio" target="_blank">
+		<img src = "{{ asset('images/whatsapp_icon.png') }}" width ="60">
+	</a>
 </div>
 
 <style>

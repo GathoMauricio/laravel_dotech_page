@@ -2,7 +2,15 @@
     <section id="about" class="light">
       <header class="title">
         <h2>About <span>Us</span></h2>
-        <p>Challenging Challenges</p>
+        <p>
+        <a href="https://www.facebook.com/DotRedes?fref=ts" target="_BLANK" style="font-size:24px;color:#3B5998;"><span class="fa fa-facebook"></span></a>
+          &nbsp;&nbsp;
+          <a href="https://twitter.com/dotredes" target="_BLANK" style="font-size:24px;color:#00ACEE;"><span class="fa fa-twitter"></span></a>
+          &nbsp;&nbsp;
+          <a href="https://www.youtube.com/channel/UCSAnfIP4DTxjsSfEXxh6m-w" target="_BLANK" style="font-size:24px;color:#C4302b;"><span class="fa fa-youtube"></span></a>
+          <br/>
+          Challenging Challenges
+        </p>
       </header>
       <div class="container">
         <div class="row table-row">
