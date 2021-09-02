@@ -1,4 +1,5 @@
 @extends(Route::currentRouteName().'.layout.app')
+@include(Route::currentRouteName().'.layout.link_nav')
 
 <section id="about" class="light">
       <header class="title">

@@ -1,5 +1,5 @@
 @extends(Route::currentRouteName().'.layout.app')
-   
+@include(Route::currentRouteName().'.layout.link_nav')
     <section id="about" class="light">
       <header class="title">
         <h2>SOPORTE TECNICO <span>EN SITIO Y REMOTO NACIONAL</span></h2>
