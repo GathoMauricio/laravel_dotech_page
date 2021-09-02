@@ -2,7 +2,7 @@
 
 <section id="about" class="light">
       <header class="title">
-        <h2>VIDEO  <span>VIGILANCIA</span>?</h2>
+        <h2>VIDEO  <span>VIGILANCIA</span></h2>
         <p class="text-left">
             En DOT TI contamos con las certificaciones de las marcas lideres 
             en video vigilancia además de ser distribuidores e importadores 

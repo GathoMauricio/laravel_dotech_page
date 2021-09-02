@@ -2,12 +2,9 @@
 
 <section id="about" class="light">
       <header class="title">
-        <h2>VIDEO  <span>SURVEILLANCE</span></h2>
+        <h2>HOSPEDAJE  <span>WEB</span></h2>
         <p class="text-left">
-            In DOT TI we have the certifications of the leading brands in video surveillance in 
-            addition to being distributors and direct 
-            importers of Solutions in the field of electronic information, 
-            ommunication, asset security and high engineering such as:
+
         </p>
       </header>
 
@@ -16,18 +13,18 @@
         <div class="row table-row">
             <div class="col-sm-6 hidden-xs">
                 <div class="section-content">
-                    <div class="big-image p-1" style="background-image:url({{ asset('images/video1.png') }})"></div>
+                    <div class="big-image p-1" style="background-image:url({{ asset('images/hosting1.jpg') }})"></div>
                 </div>
             </div>
 
             <div class="col-sm-6">
                 <div class="section-content">
                     <div class="about-content left animated" data-animate="fadeInLeft">
-                        <div class="about-icon"><i class="fa fa-angle-right"></i></div>
+                        
                         <div class="about-detail">
-                            <h4></h4>
+                            <h4>ACCESOS Y ADMINISTRACION</h4>
                             <p>
-                                Security cameras that save events 24 hours a day and with internet viewing (Ideal for monitoring your home, your company, your children, etc ...)
+                                
                             </p>
                         </div>
                     </div>
@@ -38,7 +35,7 @@
                         <div class="about-detail">
                             <h4></h4>
                             <p>
-                                Property and Neighborhood Alarms
+                                Panel de control cPanel , en el cual podrás administrar todo lo relacionado con tu hospedaje web, además de contar con aplicaciones para profesionalizar tu sitio.
                             </p>
                         </div>
                     </div>
@@ -49,7 +46,7 @@
                         <div class="about-detail">
                             <h4></h4>
                             <p>
-                                Biometric or proximity access controls (automated personnel control)
+                                Acceso vía FTP las 24 horas al día, para que puedas efectuar cualquier modificación en tu Sitio Web.
                             </p>
                         </div>
                     </div>
@@ -60,68 +57,29 @@
                         <div class="about-detail">
                             <h4></h4>
                             <p>
-                                Video doorphones with Registration, Intercoms
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="about-content left animated" data-animate="fadeInLeft">
-                        <div class="about-icon"><i class="fa fa-angle-right"></i></div>
-                        <div class="about-detail">
-                            <h4></h4>
-                            <p>
-                                Remote monitoring of remote voice audio remote installations.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="about-content left animated" data-animate="fadeInLeft">
-                        <div class="about-icon"><i class="fa fa-angle-right"></i></div>
-                        <div class="about-detail">
-                            <h4></h4>
-                            <p>
-                                Electrified Fences
+                                Completa compatibilidad para subir tu Sitio Web con Dreamweaver, Flash, iWeb, entre muchos otros.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
+        
+
+    </div>
+    <div class="container">
 
         <div class="row table-row">
-
-            <div class="col-sm-12">
-                <div class="section-content">
-                    <div class="about-content left animated" data-animate="fadeInLeft">
-                        <div class="about-icon"><i class="fa fa-angle-right"></i></div>
-                        <div class="about-detail">
-                            <h4></h4>
-                            <p>
-                                 Monitor, Listen and Record your business remotely in real time, 
-                                 with intelligent technology to Prevent, Increase Productivity, 
-                                 Reduce Costs and Times We have all kinds of cameras for any need: 
-                                 night vision, thermal, Full-HD, long range, vandal resistant and more.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row table-row">
+            
 
             <div class="col-sm-6">
                 <div class="section-content">
                     <div class="about-content left animated" data-animate="fadeInLeft">
-                        <div class="about-icon"><i class="fa fa-angle-right"></i></div>
+                        
                         <div class="about-detail">
-                            <h4></h4>
+                            <h4>FUNCIONES</h4>
                             <p>
-                                Internet access without income!
+                                
                             </p>
                         </div>
                     </div>
@@ -132,7 +90,7 @@
                         <div class="about-detail">
                             <h4></h4>
                             <p>
-                                You do NOT need a computer.
+                                Correo electrónico con movilidad (vía POP/IMAP/Webmail)
                             </p>
                         </div>
                     </div>
@@ -143,7 +101,7 @@
                         <div class="about-detail">
                             <h4></h4>
                             <p>
-                                See your cameras on your cell phone.
+                                Puedes configurar cualquier cuenta de correo electrónico en una aplicación de cliente de correo como: Microsoft Outlook, Mail de Mac, Thunderbird, cualquier smartphone Android, iPhone o BlackBerry. Y si, por algún motivo, no estás en tu oficina o no llevas tu dispositivo a la mano, puedes consultar tu correo desde cualquier equipo con una conexión a internet y con un navegador web.
                             </p>
                         </div>
                     </div>
@@ -154,7 +112,7 @@
                         <div class="about-detail">
                             <h4></h4>
                             <p>
-                                Alerts to your email and cell phone.
+                                Auto-responder: Puedes enviar una respuesta automática a todas las personas que te envíen un correo electrónico, cuando estés fuera de tu oficina o cuando no puedas ocuparte de lleno a tu correo.
                             </p>
                         </div>
                     </div>
@@ -165,7 +123,7 @@
                         <div class="about-detail">
                             <h4></h4>
                             <p>
-                                Automated and manual sirens.
+                                Grupos de Correo: No desperdicies tiempo en mandar un correo electrónico a cada uno de tus colaboradores. Puedes crear un grupos de correos.
                             </p>
                         </div>
                     </div>
@@ -176,42 +134,20 @@
                         <div class="about-detail">
                             <h4></h4>
                             <p>
-                                Full control of your equipment from a distance.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="about-content left animated" data-animate="fadeInLeft">
-                        <div class="about-icon"><i class="fa fa-angle-right"></i></div>
-                        <div class="about-detail">
-                            <h4></h4>
-                            <p>
-                                Friendly menus.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="about-content left animated" data-animate="fadeInLeft">
-                        <div class="about-icon"><i class="fa fa-angle-right"></i></div>
-                        <div class="about-detail">
-                            <h4></h4>
-                            <p>
-                                Listen to the audio from your cameras
+                                Sistema Anti-SPAM: Tu Correo Electrónico incluye AntiSPAM, un potente filtro para que tu buzón no se sature de correos no deseados (SPAM).
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="col-sm-6 hidden-xs">
                 <div class="section-content">
-                    <div class="big-image p-1" style="background-image:url({{ asset('images/video2.png') }})"></div>
+                    <div class="big-image p-1" style="background-image:url({{ asset('images/hosting2.png') }})"></div>
                 </div>
             </div>
 
         </div>
+        
 
     </div>
 
