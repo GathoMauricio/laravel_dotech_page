@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle="Juicebox Lite Gallery"
+>
+	<image imageURL="juice/images/clientes.png"
+	thumbURL="juice/thumbs/clientes.png"
+	linkURL="juice/images/clientes.png"
+	linkTarget="/en">
+	<title>Clientes</title>
+  </image>
+
+</juiceboxgallery>
