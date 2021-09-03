@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
-    return redirect('es');
+    return redirect('en');
 })->name('/');
 
 Route::get('es/{service?}', [App\Http\Controllers\ServicioController::class,'index'])->name('es');
