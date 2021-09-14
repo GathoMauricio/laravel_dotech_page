@@ -28,13 +28,6 @@
             var portfolio = [
                     {
                       category : "proyectos",
-                      image : "{{ asset('images/proyecto1.jpg') }}",
-                      title : "<h5>Equipamiento de dos carriles en caseta de peaje Saltillo-Monterrey</h5>",
-                      link : "#",
-                      text : ""
-                    },
-                    {
-                      category : "proyectos",
                       image : "{{ asset('images/proyecto2.png') }}",
                       title : "<h5>Proyecto Portico Aforador Autopista Lecheria Chamapa</h5>",
                       link : "#",

@@ -28,3 +28,7 @@ window.mostrarMasProyectos = () => {
 window.formularioContacto = () => { 
     $("#modal_contacto").modal();
 };
+
+window.showProject = id => {
+    $("#full_modal_project_"+id).css('display','block');
+};
