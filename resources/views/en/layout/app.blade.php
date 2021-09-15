@@ -16,7 +16,7 @@
     <script type="text/javascript" src="{{ asset('daraz') }}/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
     <script type="text/javascript" src="{{ asset('daraz') }}/js/plugins.js"></script>
-
+    
 	</head>
 	<body>
 

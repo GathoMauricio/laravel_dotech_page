@@ -7,7 +7,4 @@
 @section('clientes',view(Route::currentRouteName().'.sections.clientes'))
 @section('contacto',view(Route::currentRouteName().'.sections.contacto'))
 @section('mapa',view(Route::currentRouteName().'.sections.mapa'))
-
-@include(Route::currentRouteName().'.modals.project_1')
-
 @section('footer',view(Route::currentRouteName().'.sections.footer'))
