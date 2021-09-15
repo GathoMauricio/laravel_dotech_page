@@ -68,8 +68,27 @@
   <script src="{{ asset('gallery/js/classie.js') }}"></script>
   <script src="{{ asset('gallery/js/photostack.js') }}"></script>
   <script>
-       console.log("Creando photostack 1");
-              new Photostack( document.getElementById( 'photostack-1' ), {
+       new Photostack( document.getElementById( 'photostack-1' ), {
                   callback : function( item ) {}}); 
+      function setPhotostackItem(){
+        var navs = $('#photostack-1 nav span');
+        $.each(navs, function(index, item){
+          if(item.className == "current flippable" || item.className == "current flippable flip")
+          {
+            setTimeout(function(){
+              item.click();
+              setTimeout(function(){
+                if(navs[index + 1] == undefined){
+                  navs[0].click();
+                }else{ 
+                  navs[index + 1].click();
+                }
+                setPhotostackItem();
+              },10000);
+            },10000);
+         }
+        });
+      }
+  setPhotostackItem();
   </script>
 <!--END CLIENTES-->

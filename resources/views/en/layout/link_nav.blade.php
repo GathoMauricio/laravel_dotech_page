@@ -15,6 +15,7 @@
       <li class="nav-item active"><a class="nav-link" href="{{ route('en') }}#info">Clients</a></li>
       <!--<li class="nav-item active"><a class="nav-link" href="#">Compañías</a></li>-->
       <li class="nav-item active"><a class="nav-link" href="{{ route('en') }}#contact">Contact</a></li>
+      <li class="nav-item active"><a class="nav-link" href="http://dotech.dyndns.biz:16666/dotech/public/clients_login" target="_blank">Access Clients</a></li>
     </ul>
   </div>
 </nav>

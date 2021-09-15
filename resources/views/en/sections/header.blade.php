@@ -25,9 +25,10 @@
               <li><a href="#about">About us</a></li>
               <li><a href="#portfolio" onclick = '$("#link_proyectos").click();'>Projects</a></li>
               <li><a href="#portfolio" onclick = '$("#link_exitos").click();'>Success</a></li>
-              <li><a href="#info">Clients</a></li>
+              <li><a href="#info">Our Clients</a></li>
               <!--<li><a href="#">Companies</a></li>-->
               <li><a href="#contact">Contact</a></li>
+              <li><a href="http://dotech.dyndns.biz:16666/dotech/public/clients_login" target="_blank">Access Clients</a></li>
             </ul>
           </div> <!-- /.navbar-collapse -->
         </div> <!-- /.container -->
