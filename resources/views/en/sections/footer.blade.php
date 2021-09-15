@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>{{ date('Y') }} &copy; DOTECH. All right reserved.</p>
+            <p>{{ date('Y') }} &copy; <span style="color:white;font-weight:bold;">DO</span><span style="color:#d30035;font-weight:bold;">TECH</span>. All right reserved.</p>
           </div>
         </div>
     </div>

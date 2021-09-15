@@ -61,7 +61,7 @@
 
               <h3></h3>
                 <a href = "{{ route('en','service_3') }}" ><h5>Point of sale hardware</h5></a>
-                <p>Do you need a point of sale or do you require a change of equipment? With DOTECH we have several points of sale that will make the work more practical and simple.</p>
+                <p>Do you need a point of sale or do you require a change of equipment? With <span style="color:black;font-weight:bold;">DO</span><span style="color:#d30035;font-weight:bold;">TECH</span> we have several points of sale that will make the work more practical and simple.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -109,7 +109,7 @@
 
               <h3></h3>
                 <a href = "{{ route('en','service_5') }}" ><h5>VIDEO SURVEILLANCE</h5></a>
-                <p>At DOTECH we have the certifications of the leading brands in video surveillance in addition to being distributors and direct importers of Solutions in the field of electronic information, communication, asset security and high engineering./p>
+                <p>At <span style="color:black;font-weight:bold;">DO</span><span style="color:#d30035;font-weight:bold;">TECH</span> we have the certifications of the leading brands in video surveillance in addition to being distributors and direct importers of Solutions in the field of electronic information, communication, asset security and high engineering./p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">
@@ -223,7 +223,7 @@
 
               <h3></h3>
                 <a href = "{{ route('en','service_10') }}" ><h5>ACCESS CONTROL</h5></a>
-                <p>At DOTECH we have all kinds of access control: Proximity, Magnetic, Biometric. Ready to install in your office. If you already have one and cannot configure it, we will help you.</p>
+                <p>At <span style="color:black;font-weight:bold;">DO</span><span style="color:#d30035;font-weight:bold;">TECH</span> we have all kinds of access control: Proximity, Magnetic, Biometric. Ready to install in your office. If you already have one and cannot configure it, we will help you.</p>
             <!--
               <div class="team-social">
                 <ul class="list-inline social-list">

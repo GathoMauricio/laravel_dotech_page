@@ -11,7 +11,7 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#header">
-                DO<span style="color:#d30035;">TECH</span>
+              DO<span style="color:#d30035;">TECH</span>
                 <!--
                 <img src = "{{ asset('images/logo.png') }}" alt="logo.png" width="64"/>
                 -->
@@ -50,7 +50,11 @@
 
                     <div class="slider-content">
                       <h1></h1>
-                      <p>YOUR TECHNOLOGICAL ALLIES</p>
+                      <p>
+                        YOUR TECHNOLOGICAL ALLIES
+                        <br>
+                        <img src="{{ asset('images/logo.png') }}" width="120">
+                      </p>
                     </div>
 
                   </div> <!-- /.col-md-12 -->
