@@ -2,17 +2,18 @@
 @include(Route::currentRouteName().'.layout.link_nav')
 
 <section id="about" class="light p-2">
-    <h3 class ="text-center">Video Wall Store Real Madrid Polanco</h3>
+    <h3 class ="text-center">Starbucks Plaza Delta Fire System</h3>
         <h5 class ="text-center">
-            Project: Configuration Support from Spain for Real Madrid Store Video Wall.
+            Project: Supply and Installation of Edwards Vigilant Fire Fighting Equipment
         </h5>
         <h4 class ="text-center"><b>Year:</b> 2017</h4>
         <p>
             <ol>
-                <li>Support and assistance for video Wall configuration.</li>
-                <li>Video Wall equipment configuration.</li>
-                <li>Commissioning of network equipment.</li>
-                <li>Testing and project release.</li>
+                <li>Edwards Vigilant panel installation and configuration.</li>
+                <li>Installation of 5 Thermal Sensors.</li>
+                <li>Installation of 1 Manual unit.</li>
+                <li>Sensors circuit wiring.</li>
+                <li>panel interconnection via Dry Contact</li>
             </ol>
         </p>
 
@@ -23,18 +24,9 @@
 <section id="photostack-1" class="photostack">
     <div>
         <figure>
-            <a href="{{ asset('gallery/img/proyecto_9/1.jpg') }}" class="photostack-img" target="_blank"><img src="{{ asset('gallery/img/proyecto_9/img_1.png') }}" alt="#"/></a>
+            <a href="{{ asset('gallery/img/proyecto_10/1.jpg') }}" class="photostack-img" target="_blank"><img src="{{ asset('gallery/img/proyecto_10/img_1.png') }}" alt="#"/></a>
             <figcaption>
                 <h2 class="photostack-title">Photo 1</h2>
-                <div class="photostack-back">
-                    <p>Description: </p>
-                </div>
-            </figcaption>
-        </figure>
-        <figure>
-            <a href="{{ asset('gallery/img/proyecto_9/2.jpg') }}" class="photostack-img" target="_blank"><img src="{{ asset('gallery/img/proyecto_9/img_2.png') }}" alt="#"/></a>
-            <figcaption>
-                <h2 class="photostack-title">Photo 2</h2>
                 <div class="photostack-back">
                     <p>Description: </p>
                 </div>
