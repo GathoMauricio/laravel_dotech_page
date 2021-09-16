@@ -116,7 +116,7 @@
 @section('header',view(Route::currentRouteName().'.sections.header'))
 @section('servicios',view(Route::currentRouteName().'.sections.servicios'))
 @section('proyectos',view(Route::currentRouteName().'.sections.proyectos'))
-@section('clientes',view(Route::currentRouteName().'.sections.clientes'))
+
 
 @section('contacto',view(Route::currentRouteName().'.sections.contacto'))
 @section('mapa',view(Route::currentRouteName().'.sections.mapa'))
