@@ -39,6 +39,7 @@
         <video autoplay muted loop>
           <source src="https://dotredes.com/wp-content/uploads/2015/10/video-background-TICS.mp4" type="video/mp4" />
         </video>
+     
         <div class="image-slide bg-fixed">
           <div class="overlay">
             <div class="container">
@@ -179,3 +180,4 @@
       </div><!-- /.header-slide -->
     </section>
     <!-- HEADER END -->
+    <br><br>
