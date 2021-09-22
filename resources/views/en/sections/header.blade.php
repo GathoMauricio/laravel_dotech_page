@@ -33,13 +33,33 @@
           </div> <!-- /.navbar-collapse -->
         </div> <!-- /.container -->
       </nav>
+
       <!-- SLIDER -->
       <div class="header-slide">
-     
         <video autoplay muted loop>
           <source src="https://dotredes.com/wp-content/uploads/2015/10/video-background-TICS.mp4" type="video/mp4" />
         </video>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="image-slide bg-fixed">
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <center>
+                    <div class="slider-content">
+                      <h1>YOUR TECHNOLOGICAL ALLIES</h1>
+                      <p>
+                        
+                        <br>
+                        <img src="{{ asset('images/logo.png') }}" width="200">
+                      </p>
+                    </div>
+                  </center>
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+<!--
         <section>
           <div id="loader" class="pageload-overlay" data-opening="M 0,0 0,60 80,60 80,0 z M 80,0 40,30 0,60 40,30 z">
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
@@ -54,11 +74,11 @@
                   <div class="col-md-12">
 
                     <div class="slider-content">
-                      <h1>YOUR TECHNOLOGICAL ALLIES</h1>
+                      <h1></h1>
                       <p>
-                        
+                        YOUR TECHNOLOGICAL ALLIES
                         <br>
-                        <img src="{{ asset('images/logo.png') }}" width="200">
+                        <img src="{{ asset('images/logo.png') }}" width="120">
                       </p>
                     </div>
 
@@ -66,10 +86,9 @@
                 </div> 
               </div> 
             </div> 
-          </div>
+          </div> 
 
           <nav class="nav-slide">
-            <!--
             <a class="prev" href="#prev">
               <span class="icon-wrap">
                 <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
@@ -83,32 +102,28 @@
                 <img alt="Previous thumb">
               </div>
             </a>
-            
             <a class="next" href="#next">
               <span class="icon-wrap">
                 <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
                   <use xlink:href="#arrow-right">
                 </svg>
               </span>
-              
               <div>
                 <span>Next</span>
                 <h3>...</h3>
                 <p>...</p>
                 <img alt="Next thumb">
               </div>
-            
             </a>
-            -->
           </nav>
         </section>
-  
+      -->
         <script type="text/javascript">
-        /*
+        
         var dataHeader = [
                             {
                               bigImage :"{{ asset('images/soporte_tecnico_sitio_bg.jpg') }}",
-                              title : "National technical support on site and remote",
+                              title : "YOUR TECHNOLOGICAL ALLIES",
 							  author : "DOTECH"
                             },
                             {
@@ -159,7 +174,6 @@
                         ],
             loaderSVG = new SVGLoader(document.getElementById('loader'), {speedIn : 600, speedOut : 600, easingIn : mina.easeinout});
             loaderSVG.show()
-            */
         </script>
 
       </div><!-- /.header-slide -->

@@ -54,7 +54,7 @@ h2 span {
 }
 
 .overlay {
-  /*background-color: rgba(0,0,0,0.63);*/
+  background-color: rgba(0,0,0,0.63);
   /*background-image: url(../img/overlay-pattern.png) !important;*/
   background-repeat: repeat;
   background-attachment: fixed;
@@ -439,7 +439,7 @@ a {
   width: 30px;
   padding: 5px 0;
   margin: 10px 5px 2px;
-  /*background-color: rgba(98, 98, 98, .3);*/
+  background-color: rgba(98, 98, 98, .3);
 }
 
 .header-slide .image-slide .top-social li a {
