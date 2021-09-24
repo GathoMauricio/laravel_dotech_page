@@ -25,122 +25,122 @@
                       category : "proyectos",
                       image : "{{ asset('images/proyecto2.png') }}",
                       title : "<h5>Portico Aforador Project Lecheria Chamapa Highway</h5>",
-                      link : "{{ route('en','project_1') }}",
+                      link : "javascript:void(0)",
                       text : "Project: installation of exterior cabinets in Portico.",
-                      onclick : "console.log(1)"
+                      onclick : "swiper(1);"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto3.jpg') }}",
                       title : "<h5>Pizza danny’s Monclova branch</h5>",
-                      link : "{{ route('en','project_2') }}",
+                      link : "javascript:void(0)",
                       text : "At DOTECH we have several points of sale that will make the work more practical and simple.",
-                      onclick : "console.log(2)"
+                      onclick : "swiper(2);"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto4.jpg') }}",
                       title : "<h5>Macro Bypass Guadalajara.</h5>",
-                      link : "{{ route('en','project_3') }}",
+                      link : "javascript:void(0)",
                       text : "Roadway that generates a vehicle passage of 111 kilometers from Zapotlanejo to Ameca, avoiding the traffic of the metropolitan area of Guadalajara.",
-                      onclick : "console.log(3)"
+                      onclick : "swiper(3);"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto5.jpeg') }}",
                       title : "<h5>Guadalajara Tepic Highway.</h5>",
-                      link : "{{ route('en','project_4') }}",
+                      link : "javascript:void(0)",
                       text : "It is located in the States of Jalisco and Nayarit, it is part of the Pacific Highway Axis.",
-                      onclick : "console.log(4)"
+                      onclick : "swiper(4);"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto6.jpg') }}",
                       title : "<h5>Papa Johns Wiring Renovation</h5>",
-                      link : "{{ route('en','project_5') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Renovation of structured cabling to 29 Papa Johns Stores (250 Nodes)",
-                      onclick : "console.log(5)"
+                      onclick : "swiper(5)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto7.png') }}",
                       title : "<h5>Silvaform</h5>",
-                      link : "{{ route('en','project_6') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Design, Supply and Installation of the BELDEN CERTIFIED Voice and Data Network",
-                      onclick : "console.log(6)"
+                      onclick : "swiper(6)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto8.jpg') }}",
                       title : "<h5>Papa Johns Lindavista</h5>",
-                      link : "{{ route('en','project_7') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Design and development of special facilities and technology",
-                      onclick : "console.log(7)"
+                      onclick : "swiper(7)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto9.jpeg') }}",
                       title : "<h5>Variable Message Panel Tepic</h5>",
-                      link : "{{ route('en','project_8') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Installation and tuning of the variable message panel, foundation and installation of 108 poles for video surveillance cameras.",
-                      onclick : "console.log(8)"
+                      onclick : "swiper(8)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto10.jpg') }}",
                       title : "<h5>Video Wall Tienda Real Madrid Polanco</h5>",
-                      link : "{{ route('en','project_9') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Configuration Support from Spain for Real Madrid Store Video Wall.",
-                      onclick : "console.log(9)"
+                      onclick : "swiper(9)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto11.jpg') }}",
                       title : "<h5>Starbucks Plaza Delta Fire System</h5>",
-                      link : "{{ route('en','project_10') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Supply and Installation of Edwards Vigilant Fire Fighting Equipment",
-                      onclick : "console.log(10)"
+                      onclick : "swiper(10)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto12.jpg') }}",
                       title : "<h5>Sin Cola 5LA National Movistar.</h5>",
-                      link : "{{ route('en','project_11') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Installation of the 5LA Application in Movistar points of sale",
-                      onclick : "console.log(11)"
+                      onclick : "swiper(11)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto13.jpg') }}",
                       title : "<h5>FAMILY MEDICAL UNIT 17 IMSS MAGDALENA APASCO OAXACA/h5>",
-                      link : "{{ route('en','project_12') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Special Installations at UMF 56 San Pablo Huitzo Oaxaca",
-                      onclick : "console.log(12)"
+                      onclick : "swiper(12)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto14.jpg') }}",
                       title : "<h5>Family Medical Unit 56 IMSS Huitzo Oaxaca</h5>",
-                      link : "{{ route('en','project_13') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Special Installations at UMF 56 San Pablo Huitzo Oaxaca",
-                      onclick : "console.log(13)"
+                      onclick : "swiper(13)"
                     },
                     {
                       category : "proyectos",
                       image : "{{ asset('images/proyecto15.jpg') }}",
                       title : "<h5>Alebrijes Stadium of Oaxaca</h5>",
-                      link : "{{ route('en','project_14') }}",
+                      link : "javascript:void(0)",
                       text : "Project: Design Executive Project for special facilities Alebrijes Stadium Oaxaca",
-                      onclick : "console.log(14)"
+                      onclick : "swiper(14)"
                     },{
                       category : "proyectos",
                       image : "{{ asset('images/proyecto16.jpg') }}",
                       title : "<h5>Readers Instalation Monterrey-Saltillo Highway</h5>",
-                      link : "{{ route('en','project_15') }}",
+                      link : "javascript:void(0)",
                       text : "Project: ITS facilities in the Monterrey Saltillo section",
-                      onclick : "console.log(15)"
+                      onclick : "swiper(15)"
                     }
-
+                    /*
                     ,{
                       category : "exitos",
                       image : "{{ asset('images/exitos1.png') }}",
@@ -183,17 +183,73 @@
                       link : "#",
                       text : ""
                     }
+                    */
                 ];
             </script>
           </div>
         </div>
       </div>
     </section>
+
+    @for($i = 1; $i <= 15; $i++)
+    @include('en.modals.project_'.$i)
+    @endfor
+  
+  
+  
+  
+  
+    <style>
+      .swiper {
+        width: 100%;
+        height: 80vh;
+      }
+      .modal-full{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color:black;
+        z-index: 99999;
+        padding: 20px;
+        display:none;
+      }
+      .modal-full-content{
+        padding: 20px;
+        border-radius:5px;
+        background-color:white;
+        width: 100%;
+        height: 100%;
+      }
+      </style>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script>
         $(document).on('ready',function(){
             setTimeout(function(){
                 $("#link_proyectos").click();
             },1000);
+            var swiper = new Swiper(".mySwiperProyect", {
+            spaceBetween: 30,
+            effect: "fade",
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            autoplay: true,
+            speed:1000
+          });
         });
+
+        
+        function swiper(id){
+          
+          $('#modal_full_'+id).css('display','block');
+        }
     </script>
     <!--END PROYECTOS -->
