@@ -229,6 +229,108 @@
         $(document).on('ready',function(){
             setTimeout(function(){
                 $("#link_proyectos").click();
+                
+                $(".portfolio-view").hover(function(){
+                  switch($(this).children('img').prop('src'))
+                  {
+                    case '{{ asset('images/proyecto2.png') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_1/proy_1.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto3.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_2/proy_2.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto4.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_3/proy_3.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto5.jpeg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_4/proy_4.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto6.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_5/proy_5.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto7.png') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_6/proy_6.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto8.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_7/proy_7.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto9.jpeg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_8/proy_8.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto10.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_9/proy_9.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto11.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_10/proy_10.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto12.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_11/proy_11.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto13.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_12/proy_12.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto14.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_13/proy_13.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto15.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_14/proy_14.gif') }}');
+                    break;
+                    case '{{ asset('images/proyecto16.jpg') }}': 
+                      $(this).children('img').prop('src','{{ asset('gallery/img/proyecto_15/proy_15.gif') }}');
+                    break;
+
+                  }
+                }, function(){
+                    switch($(this).children('img').prop('src'))
+                    {
+                      case '{{ asset('gallery/img/proyecto_1/proy_1.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto2.png') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_2/proy_2.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto3.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_3/proy_3.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto4.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_4/proy_4.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto5.jpeg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_5/proy_5.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto6.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_6/proy_6.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto7.png') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_7/proy_7.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto8.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_8/proy_8.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto9.jpeg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_9/proy_9.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto10.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_10/proy_10.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto11.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_11/proy_11.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto12.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_12/proy_12.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto13.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_13/proy_13.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto14.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_14/proy_14.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto15.jpg') }}');
+                      break;
+                      case '{{ asset('gallery/img/proyecto_15/proy_15.gif') }}':
+                        $(this).children('img').prop('src','{{ asset('images/proyecto16.jpg') }}');
+                      break;
+                    }
+                });
+                
             },1000);
             var swiper = new Swiper(".mySwiperProyect", {
             spaceBetween: 30,
