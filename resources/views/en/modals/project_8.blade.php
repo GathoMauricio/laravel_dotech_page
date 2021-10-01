@@ -5,22 +5,34 @@
       <div class="swiper mySwiperProyect">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_8/img_1.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_8/img_1.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_8/img_2.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_8/img_2.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_8/img_3.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_8/img_3.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_8/img_4.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_8/img_4.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_8/img_5.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_8/img_5.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_8/img_6.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_8/img_6.png') }}" width="50%" />
+            </center>
           </div>
         </div>
         <div class="swiper-button-next"></div>

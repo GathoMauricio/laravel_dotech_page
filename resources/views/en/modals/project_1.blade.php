@@ -5,37 +5,59 @@
       <div class="swiper mySwiperProyect">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_1.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_1.png') }}" width="50%"/>
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_2.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_2.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_3.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_3.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_4.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_4.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_5.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_5.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_6.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_6.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_7.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_7.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_8.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_8.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_9.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_9.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_10.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_10.png') }}" width="50%" />
+            </center>
           </div>
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_1/img_11.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_1/img_11.png') }}" width="50%" />
+            </center>
           </div>
         </div>
         <div class="swiper-button-next"></div>

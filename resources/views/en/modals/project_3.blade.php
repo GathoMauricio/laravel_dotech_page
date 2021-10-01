@@ -5,7 +5,9 @@
       <div class="swiper mySwiperProyect">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="{{ asset('gallery/img/proyecto_3/img_1.png') }}" width="100%" height="100%" />
+            <center>
+            <img src="{{ asset('gallery/img/proyecto_3/img_1.png') }}" width="50%" />
+            </center>
           </div>
         </div>
         <div class="swiper-button-next"></div>
