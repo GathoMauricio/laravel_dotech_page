@@ -12,7 +12,7 @@
           <ul id="filters" class="list-inline">
             <!--<li data-filter="all" class="filter"><h3>Todo</h3></li>-->
             <li id ="link_proyectos" data-filter=".proyectos" class="filter"><h3>Projects</h3></li> 
-            <li id = "link_exitos" data-filter=".exitos" class="filter"><h3>Success cases</h3></li> 
+            <!--<li id = "link_exitos" data-filter=".exitos" class="filter"><h3>Success cases</h3></li> -->
           </ul>
         </div>
 

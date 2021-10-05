@@ -7,6 +7,28 @@
         </p>
       </header>
     </section>
+<!--
+    <div class="swiper mySwiperProyect">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="{{ asset('gallery/img/clientes/ike.png') }}" />
+        </div>
+        <div class="swiper-slide">
+          <img src="{{ asset('gallery/img/clientes/papa.png') }}" />
+        </div>
+        <div class="swiper-slide">
+          <img src="{{ asset('gallery/img/clientes/izzi.png') }}" />
+        </div>
+        <div class="swiper-slide">
+          <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  -->
+    
+    
+
     <section id="photostack-1" class="photostack">
       <div>
           <figure>

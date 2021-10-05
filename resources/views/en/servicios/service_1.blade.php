@@ -1,6 +1,5 @@
 @extends(Route::currentRouteName().'.layout.app')
 @include(Route::currentRouteName().'.layout.link_nav')
-   
     <section id="about" class="light">
       <header class="title">
         <h2>NATIONAL TECHNICAL SUPPORT <span>ON SITE AND REMOTE</span></h2>
@@ -15,7 +14,7 @@
         <div class="row table-row">
           <div class="col-sm-6 hidden-xs">
             <div class="section-content">
-              <div class="big-image p-1" style="background-image:url({{ asset('images/soporte_1.png') }})"></div>
+              <div class="big-image p-1" style="background-image:url({{ asset('images/soporte_1_1.png') }})"></div>
             </div>
           </div>
 
@@ -63,6 +62,31 @@
       </div> 
     </section>
 
+    <section class="light">
+      <div class="row table-row">
+        <div class="col-md-8">
+          <center><h3>Get to know our services without hidden costs !!</h3></center>
+          <table class="table">
+            <tr>
+              <td>
+                1 service
+                <br>
+                visit
+              </td>
+              <td>
+                It includes all the necessary services to keep the equipment running in optimal conditions: repair of the operating system, reinstallation of software, formatting, etc. Includes backup of information indicated by the user maximum 5GB, the service does not close until the customer is fully satisfied, if it is not resolved on the first visit we will return to resolve it at no cost !!!
+              </td>
+              <td>
+                $ 599.00
+                <br>
+                massive
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
     <section class="dark" style ="background-color:#000">
         <header class="title">
         <h2> Visit Package <span> You call us whenever and however you want </span> </h2>
@@ -94,6 +118,55 @@
                     <td>– 16 %</td>
                 </tr>
             </table>
+        </div>
+      </div>
+    </section>
+    <section class="light">
+      <div class="row table-row">
+        <div class="col-md-10">
+          <center><h3>Do you need someone to take charge of your systems area?</h3></center>
+          <p>
+            support, emails, website, inventories, etc. With our IGUALA service you make a monthly payment and you are covered in ALL your TECHNOLOGY needs  .
+          </p>
+          <center><h3>On-site service engineer:</h3></center>
+          <p>
+            Avoid social burden DEDUCELO !! You will also have a whole team of engineers behind it to solve any eventuality !!
+            <br>
+            <small>* It is priced according to the client's needs and the requested profile</small>
+          </p>
+          <hr>
+          <p>
+            With us you can free your IT department from support activities. focusing on projects of greater value for your company. our technical support solutions are scalable and reliable.
+          </p>
+          <ul>
+            <li>The best customer service concept.</li>
+            <li>Always attentive to user needs.</li>
+            <li>Always locatable multichannel contact.</li>
+            <li>Always monitoring critical business processes.</li>
+            <li>Remote control socket of the workstations.</li>
+            <li>Monthly and personalized statistics report.</li>
+            <li>Inventory taking and asset tracking.</li>
+            <li>High levels of efficiency in meeting the agreed SLAs.</li>
+            <li>Web access to monitor SLA compliance levels.</li>
+            <li>Training for end users on recurring incidents.</li>
+          </ul>
+          <hr>
+          <p>
+            <b>Focused Technical Support:</b>  Help users in all electronic devices and Microsoft Office issues. Our commitment is to manage end-to-end IT problems for your business users - even if it means calling the manufacturer / vendor to fix your technical problems.
+            <br><br>
+            <b>On-site Help Desk:</b> A technical support engineer will be in your office (during business hours) to provide quick, hands-on help to business users. We escalate your issues for fast and efficient technical problem resolution. Behind the engineers on site, we have a whole team that allows us to guarantee answers. Anticipate the different technical needs.
+            <br><br>
+            <b>No Waiting List:</b> Don't wait any longer for your technician to arrive, get Quick Access to the best engineers who will give a quick and efficient resolution to your technical problems.
+            <br><br>
+            <b>Remote Help Desk (Office Hours):</b> With us you can have support after your normal hours. a remote support plan can solve many of your needs.
+            <br><br>
+            <b>Emergency Onsite Support (Office Hours):</b> A technician is dispatched on site when your problems cannot be resolved using the remote connection, phone or email.
+            <br><br>
+            <b>Extended Hours on Site:</b> In an Emergency or high workflow, it may require additional hours from an on-site engineer. We can create an action plan that is tailored to your operational and financial needs.
+            <br><br>
+            <b>Remote Service after office hours as well as 365x24x7 support: </b> When your business requires it, we can provide solutions and immediate responses, providing peace of mind to your business.
+            <hr>
+          </p>
         </div>
       </div>
     </section>
