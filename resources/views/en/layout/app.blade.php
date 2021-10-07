@@ -47,7 +47,7 @@
 
     <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
     <script>
-      Pusher.logToConsole = true;
+      Pusher.logToConsole = false;
       var pusher = new Pusher('{{ env('PUSHER_APP_KEY') }}', {
       cluster: '{{ env('PUSHER_APP_CLUSTER') }}'
       });
