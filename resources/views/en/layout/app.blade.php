@@ -44,5 +44,50 @@
     <!-- SCRIPT -->
     <script type="text/javascript" src="{{ asset('daraz/js/main.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+
+    <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
+    <script>
+      Pusher.logToConsole = true;
+      var pusher = new Pusher('{{ env('PUSHER_APP_KEY') }}', {
+      cluster: '{{ env('PUSHER_APP_CLUSTER') }}'
+      });
+      var channel = pusher.subscribe('user-landing-channel');
+          channel.bind('notification', function(data) {
+          console.log(data);
+          notificar(data.message.titulo,data.message.mensaje);
+      });
+  </script>
+      <script>
+          $(document).on('ready',function(){
+              if(!Notification)
+              {
+                  console.log("No se soportan notificaciones en este navegador");
+                  return;
+              }
+
+              if(Notification.permission !== 'granted')
+              {
+                  Notification.requestPermission();
+              }
+          });
+          function notificar(titulo,mensaje){
+              console.log("Notificar");
+              if(Notification.permission !== 'granted')
+              {
+                  console.log("Notificar no permitido");
+                  Notification.requestPermission();
+              }else{
+                  console.log("Notificar permitido");
+                  var notification = new Notification(titulo,{
+                      icon: '{{ asset("images/logo.png") }}',
+                      body: mensaje
+                  });
+                  
+                  notification.onclick = () => {
+                      window.open("https://dotech.tech");
+                  };
+              }
+          }
+      </script>
 	</body>
 </html>
