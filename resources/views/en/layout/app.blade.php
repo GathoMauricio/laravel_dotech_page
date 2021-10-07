@@ -53,7 +53,6 @@
       });
       var channel = pusher.subscribe('user-landing-channel');
           channel.bind('notification', function(data) {
-          console.log(data);
           notificar(data.message.titulo,data.message.mensaje);
       });
   </script>
@@ -71,14 +70,12 @@
               }
           });
           function notificar(titulo,mensaje){
-              console.log("Notificar");
               if(Notification.permission !== 'granted')
               {
                   console.log("Notificar no permitido");
                   Notification.requestPermission();
               }else{
-                  console.log("Notificar permitido");
-                  var notification = new Notification(titulo,{
+                   var notification = new Notification(titulo,{
                       icon: '{{ asset("images/logo.png") }}',
                       body: mensaje
                   });
