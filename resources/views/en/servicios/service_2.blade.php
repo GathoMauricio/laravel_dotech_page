@@ -10,31 +10,34 @@
         </p>
       </header>
       <div class="container">
-        <!-- Swiper -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="{{ asset('gallery/img/servicio_2/1.png') }}" width="100%"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="{{ asset('gallery/img/servicio_2/2.png') }}" width="100%"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="{{ asset('gallery/img/servicio_2/3.png') }}" width="100%"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="{{ asset('gallery/img/servicio_2/4.png') }}" width="100%"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="{{ asset('gallery/img/servicio_2/5.png') }}" width="100%"/>
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/servicio_2/1.png') }}" width="100%"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/servicio_2/2.png') }}" width="100%"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/servicio_2/3.png') }}" width="100%"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/servicio_2/4.png') }}" width="100%"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/servicio_2/5.png') }}" width="100%"/>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
             </div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
-      
         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script>
