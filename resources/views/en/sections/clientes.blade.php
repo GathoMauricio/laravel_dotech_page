@@ -6,6 +6,179 @@
           These are some of the companies and people who have left their projects in our hands.
         </p>
       </header>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-3">
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="60%"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="60%"/>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="60%"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="60%"/>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="60%"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="60%"/>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="60%"/>
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="60%"/>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+
+      </div><!--endrow-->
+      <div class="row">
+
+      <div class="col-md-3">
+        <!-- Swiper -->
+        <div class="swiper mySwiperClients">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="60%"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="60%"/>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <!-- Swiper -->
+        <div class="swiper mySwiperClients">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="60%"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="60%"/>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <!-- Swiper -->
+        <div class="swiper mySwiperClients">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="60%"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="60%"/>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <!-- Swiper -->
+        <div class="swiper mySwiperClients">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="60%"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="60%"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+
+  </div><!--endrow-->
+
+    </div>
+      
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper(".mySwiperClients", {
+            spaceBetween: 30,
+            effect: "cube",
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            autoplay: true,
+            speed:1000
+          });
+        </script>
+
+
     </section>
 <!--
     <div class="swiper mySwiperProyect">
@@ -29,7 +202,7 @@
     
     
 
-    <section id="photostack-1" class="photostack">
+    <section id="photostack-1" class="photostack" style ="display:none;">
       <div>
           <figure>
               <a href="{{ asset('gallery/img/clientes/ike.png') }}" class="photostack-img" target="_blank"><img src="{{ asset('gallery/img/clientes/ike.png') }}" alt="#"/></a>
@@ -319,7 +492,6 @@
             </figcaption>
           </figure>
           
-
       </div>
   </section>
   <link rel="stylesheet" type="text/css" href="{{ asset('gallery/css/normalize.css') }}" />
@@ -350,6 +522,6 @@
          }
         });
       }
-  setPhotostackItem();
+  //setPhotostackItem();
   </script>
 <!--END CLIENTES-->

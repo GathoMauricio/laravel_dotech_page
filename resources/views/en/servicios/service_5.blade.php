@@ -2,6 +2,7 @@
 @include(Route::currentRouteName().'.layout.link_nav')
 
 <section id="about" class="light">
+    <br><br>
       <header class="title">
         <h2>VIDEO  <span>SURVEILLANCE</span></h2>
         <p class="text-left">
