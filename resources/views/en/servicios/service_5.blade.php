@@ -17,7 +17,7 @@
         <div class="row table-row">
             <div class="col-sm-6 hidden-xs">
                 <div class="section-content">
-                    <div class="big-image p-1" style="background-image:url({{ asset('images/video1.png') }})"></div>
+                    <div class="big-image p-1" style="background-image:url({{ asset('gallery/img/servicio_5/1.jpg') }})"></div>
                 </div>
             </div>
 
@@ -215,7 +215,58 @@
         </div>
 
     </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h5 class="text-center"><a href="https://dotredes.com/condiciones-generales/" target="_blank">SEE GENERAL CONDITIONS HERE</a></h5>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <!-- Swiper -->
+        <div class="swiper mySwiper1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/servicio_5/2.jpg') }}" width="100%"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/servicio_5/3.jpg') }}" width="100%"/>
+            </div>
+            <!--
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/servicio_5/4.jpg') }}" width="100%"/>
+            </div>
+            -->
+            <div class="swiper-slide">
+              <img src="{{ asset('gallery/img/servicio_5/5.png') }}" width="100%"/>
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('gallery/img/servicio_5/6.jpg') }}" width="100%"/>
+              </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
 
+      <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper1", {
+            slidesPerView: 3,
+            grid: {
+            rows: 1,
+            },
+            spaceBetween: 30,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            autoplay: true,
+        });
+      </script>
+      
+      <br><br>
 </section>
 
 @section('header',view(Route::currentRouteName().'.sections.header'))
