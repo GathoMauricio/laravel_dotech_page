@@ -32,3 +32,7 @@ window.formularioContacto = () => {
 window.showProject = id => {
     $("#full_modal_project_"+id).css('display','block');
 };
+
+window.swiper = id => {
+    $('#modal_full_'+id).css('display','block');
+  }
