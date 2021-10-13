@@ -11,7 +11,7 @@
 
         <div class="row">
 
-          <div class="col-md-3">
+          <div class="col-md-3 nopadding">
             <!-- Swiper -->
             <div class="swiper mySwiperClients">
               <div class="swiper-wrapper">
@@ -77,7 +77,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 nopadding">
             <!-- Swiper -->
             <div class="swiper mySwiperClients">
               <div class="swiper-wrapper">
@@ -143,7 +143,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 nopadding">
             <!-- Swiper -->
             <div class="swiper mySwiperClients">
               <div class="swiper-wrapper">
@@ -209,7 +209,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 nopadding">
             <!-- Swiper -->
             <div class="swiper mySwiperClients">
               <div class="swiper-wrapper">
@@ -277,9 +277,9 @@
 
 
       </div><!--endrow-->
-      <div class="row">
+      <div class="row nopadding">
 
-      <div class="col-md-3">
+      <div class="col-md-3 nopadding">
         <!-- Swiper -->
         <div class="swiper mySwiperClients">
           <div class="swiper-wrapper">
@@ -345,7 +345,7 @@
         </div>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-3 nopadding">
         <!-- Swiper -->
         <div class="swiper mySwiperClients">
           <div class="swiper-wrapper">
@@ -411,7 +411,7 @@
         </div>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-3 nopadding">
         <!-- Swiper -->
         <div class="swiper mySwiperClients">
           <div class="swiper-wrapper">
@@ -477,7 +477,7 @@
         </div>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-3 nopadding">
         <!-- Swiper -->
         <div class="swiper mySwiperClients">
           <div class="swiper-wrapper">
@@ -566,7 +566,12 @@
             speed:1000
           });
         </script>
-
+        <style>
+          .nopadding {
+            padding: 0 !important;
+            margin: 0 !important;
+          }
+        </style>
 
     </section>
     
