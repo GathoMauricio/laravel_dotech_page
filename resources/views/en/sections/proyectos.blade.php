@@ -348,9 +348,10 @@
           });
         });
 
-        
+        /*
         function swiper(id){
           $('#modal_full_'+id).css('display','block');
         }
+        */
     </script>
     <!--END PROYECTOS -->
