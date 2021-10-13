@@ -27,7 +27,7 @@
                       title : "<h5>Portico Aforador Project Lecheria Chamapa Highway</h5>",
                       link : "javascript:void(0)",
                       text : "Project: installation of exterior cabinets in Portico.",
-                      onclick : "swiper(1);"
+                      onclick : "swip(1);"
                     },
                     {
                       category : "proyectos",
@@ -35,7 +35,7 @@
                       title : "<h5>Pizza danny’s Monclova branch</h5>",
                       link : "javascript:void(0)",
                       text : "At DOTECH we have several points of sale that will make the work more practical and simple.",
-                      onclick : "swiper(2);"
+                      onclick : "swip(2);"
                     },
                     {
                       category : "proyectos",
@@ -43,7 +43,7 @@
                       title : "<h5>Macro Bypass Guadalajara.</h5>",
                       link : "javascript:void(0)",
                       text : "Roadway that generates a vehicle passage of 111 kilometers from Zapotlanejo to Ameca, avoiding the traffic of the metropolitan area of Guadalajara.",
-                      onclick : "swiper(3);"
+                      onclick : "swip(3);"
                     },
                     {
                       category : "proyectos",
@@ -51,7 +51,7 @@
                       title : "<h5>Guadalajara Tepic Highway.</h5>",
                       link : "javascript:void(0)",
                       text : "It is located in the States of Jalisco and Nayarit, it is part of the Pacific Highway Axis.",
-                      onclick : "swiper(4);"
+                      onclick : "swip(4);"
                     },
                     {
                       category : "proyectos",
@@ -59,7 +59,7 @@
                       title : "<h5>Papa Johns Wiring Renovation</h5>",
                       link : "javascript:void(0)",
                       text : "Project: Renovation of structured cabling to 29 Papa Johns Stores (250 Nodes)",
-                      onclick : "swiper(5)"
+                      onclick : "swip(5)"
                     },
                     {
                       category : "proyectos",
@@ -67,7 +67,7 @@
                       title : "<h5>Silvaform</h5>",
                       link : "javascript:void(0)",
                       text : "Project: Design, Supply and Installation of the BELDEN CERTIFIED Voice and Data Network",
-                      onclick : "swiper(6)"
+                      onclick : "swip(6)"
                     },
                     {
                       category : "proyectos",
@@ -75,7 +75,7 @@
                       title : "<h5>Papa Johns Lindavista</h5>",
                       link : "javascript:void(0)",
                       text : "Project: Design and development of special facilities and technology",
-                      onclick : "swiper(7)"
+                      onclick : "swip(7)"
                     },
                     {
                       category : "proyectos",
@@ -83,7 +83,7 @@
                       title : "<h5>Variable Message Panel Tepic</h5>",
                       link : "javascript:void(0)",
                       text : "Project: Installation and tuning of the variable message panel, foundation and installation of 108 poles for video surveillance cameras.",
-                      onclick : "swiper(8)"
+                      onclick : "swip(8)"
                     },
                     {
                       category : "proyectos",
@@ -91,7 +91,7 @@
                       title : "<h5>Video Wall Tienda Real Madrid Polanco</h5>",
                       link : "javascript:void(0)",
                       text : "Project: Configuration Support from Spain for Real Madrid Store Video Wall.",
-                      onclick : "swiper(9)"
+                      onclick : "swip(9)"
                     },
                     {
                       category : "proyectos",
@@ -99,7 +99,7 @@
                       title : "<h5>Starbucks Plaza Delta Fire System</h5>",
                       link : "javascript:void(0)",
                       text : "Project: Supply and Installation of Edwards Vigilant Fire Fighting Equipment",
-                      onclick : "swiper(10)"
+                      onclick : "swip(10)"
                     },
                     {
                       category : "proyectos",
@@ -107,7 +107,7 @@
                       title : "<h5>Sin Cola 5LA National Movistar.</h5>",
                       link : "javascript:void(0)",
                       text : "Project: Installation of the 5LA Application in Movistar points of sale",
-                      onclick : "swiper(11)"
+                      onclick : "swip(11)"
                     },
                     {
                       category : "proyectos",
@@ -115,7 +115,7 @@
                       title : "<h5>FAMILY MEDICAL UNIT 17 IMSS MAGDALENA APASCO OAXACA/h5>",
                       link : "javascript:void(0)",
                       text : "Project: Special Installations at UMF 56 San Pablo Huitzo Oaxaca",
-                      onclick : "swiper(12)"
+                      onclick : "swip(12)"
                     },
                     {
                       category : "proyectos",
@@ -123,7 +123,7 @@
                       title : "<h5>Family Medical Unit 56 IMSS Huitzo Oaxaca</h5>",
                       link : "javascript:void(0)",
                       text : "Project: Special Installations at UMF 56 San Pablo Huitzo Oaxaca",
-                      onclick : "swiper(13)"
+                      onclick : "swip(13)"
                     },
                     {
                       category : "proyectos",
@@ -131,14 +131,14 @@
                       title : "<h5>Alebrijes Stadium of Oaxaca</h5>",
                       link : "javascript:void(0)",
                       text : "Project: Design Executive Project for special facilities Alebrijes Stadium Oaxaca",
-                      onclick : "swiper(14)"
+                      onclick : "swip(14)"
                     },{
                       category : "proyectos",
                       image : "{{ asset('images/proyecto16.jpg') }}",
                       title : "<h5>Readers Instalation Monterrey-Saltillo Highway</h5>",
                       link : "javascript:void(0)",
                       text : "Project: ITS facilities in the Monterrey Saltillo section",
-                      onclick : "swiper(15)"
+                      onclick : "swip(15)"
                     }
                     /*
                     ,{
@@ -348,10 +348,10 @@
           });
         });
 
-        /*
-        function swiper(id){
+        
+        function swip(id){
           $('#modal_full_'+id).css('display','block');
         }
-        */
+        
     </script>
     <!--END PROYECTOS -->
