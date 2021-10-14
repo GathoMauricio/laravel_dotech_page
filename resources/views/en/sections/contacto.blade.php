@@ -33,12 +33,11 @@
           </div>
           <div class="col-md-4 animated" data-animate="fadeInRight">
             <address>
-                <span><i class="fa fa-map-marker fa-lg"></i> Bahía Palmas 33, Verónica Anzúres, 11300 Ciudad de México, D.F México
-                <br/><br/>
-                Querétaro Office: Lázaro Cárdenas 258, 76177 Querétaro, México.</span>
+                <span><i class="fa fa-map-marker fa-lg"></i> Bahía Palmas 33, Verónica Anzúres, 11300 Ciudad de México, D.F México</span>
+                <span><i class="fa fa-map-marker fa-lg"></i> Querétaro Office: Lázaro Cárdenas 258, 76177 Querétaro, México.</span>
                 <span><i class="fa fa-phone fa-lg"></i> <a href = "tel:525555460615">52 55 55460615 Ext.109</a></span>
                 <span><i class="fa fa-envelope-o fa-lg"></i> <a href="mailto:contacto@dotredes.com">contacto&#64;dotredes.com</a></span>
-                <span><i class="fa fa-globe fa-lg"></i> <a href="https://dotredes.com">dotredes.com</a></span>
+                <span><i class="fa fa-globe fa-lg"></i> <a href="https://dotech.tech">dotech.tech</a></span>
             </address>
           </div>
 		  
