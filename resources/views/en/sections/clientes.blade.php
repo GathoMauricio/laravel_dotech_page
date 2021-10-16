@@ -9,61 +9,450 @@
 
       <div class="container">
 
-        <div class="row">
+        <div class="row" style="height:200px">
 
-          <div class="col-md-3 nopadding">
+          <div class="col-md-3 nopadding" >
             <!-- Swiper -->
-            <div class="swiper mySwiperClients">
-              <div class="swiper-wrapper">
+            <div class="swiper mySwiperClients"  style="height:200px">
+              <div class="swiper-wrapper" style="height:200px">
+
+                
+                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
+                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="100%"/>
+                  <div class="swiper-slide" onclick ="infoCompania('ike');" >
+                    <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="100%"/>
+                  </div>
+                  <div class="swiper-slide" onclick ="infoCompania('papa');" >
+                    <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="100%"/>
+                  </div>
+                  <div class="swiper-slide" onclick ="infoCompania('izzi');" >
+                    <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="100%"/>
+                  </div>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
+                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
+                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
+                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('imss');" >
+                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('3b');" >
+                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('conuee');" >
+                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
+                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
+                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
+                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
+                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
+                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('simex');" >
+                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('roche');" >
+                  <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 nopadding" >
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients"  style="height:200px">
+              <div class="swiper-wrapper" style="height:200px">
+
+                <div class="swiper-slide" onclick ="infoCompania('imss');" >
+                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('3b');" >
+                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('conuee');" >
+                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
+                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
+                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
+                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('ike');" >
+                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('papa');" >
+                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('izzi');" >
+                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="100%"/>
+                </div>
+                
+                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
+                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
+                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
+                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
+                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="100%"/>
+                </div>
+                
+                <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
+                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
+                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('simex');" >
+                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('roche');" >
+                  <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 nopadding" >
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients"  style="height:200px">
+              <div class="swiper-wrapper" style="height:200px">
+
+                
+                
+                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
+                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
+                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
+                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
+                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
+                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
+                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
+                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('simex');" >
+                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="100%"/>
+                <div class="swiper-slide" onclick ="infoCompania('ike');" >
+                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('papa');" >
+                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('izzi');" >
+                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
+                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
+                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('imss');" >
+                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('3b');" >
+                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('conuee');" >
+                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="100%"/>
+                </div>
+                
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('roche');" >
+                  <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 nopadding" >
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients"  style="height:200px">
+              <div class="swiper-wrapper" style="height:200px">
+
+                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
+                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
+                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
+                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('conuee');" >
+                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
+                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
+                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
+                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
+                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('imss');" >
+                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('ike');" >
+                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
+                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="100%"/>
+                </div>
+                
+                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
+                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('papa');" >
+                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('izzi');" >
+                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('3b');" >
+                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="100%"/>
+                </div>
+                
+                <div class="swiper-slide" onclick ="infoCompania('simex');" >
+                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('roche');" >
+                  <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+
+        </div><!--endrow-->
+
+        <div class="row" style="height:200px">
+
+          <div class="col-md-3 nopadding" >
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients"  style="height:200px">
+              <div class="swiper-wrapper" style="height:200px">
+
+                
+                
+                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
+                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
+                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
+                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
+                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
+                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
+                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
+                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('imss');" >
+                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('3b');" >
+                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('conuee');" >
+                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
+                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
+                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('ike');" >
+                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('papa');" >
+                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('izzi');" >
+                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('simex');" >
+                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('roche');" >
+                  <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 nopadding" >
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients"  style="height:200px">
+              <div class="swiper-wrapper" style="height:200px">
+
+                <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
+                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
+                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('simex');" >
+                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('roche');" >
+                  <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('ike');" >
+                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('papa');" >
+                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('izzi');" >
+                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
+                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
+                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
+                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
+                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
+                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
+                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
+                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('imss');" >
+                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('3b');" >
+                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('conuee');" >
+                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="100%"/>
+                </div>
+                
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 nopadding" >
+            <!-- Swiper -->
+            <div class="swiper mySwiperClients"  style="height:200px">
+              <div class="swiper-wrapper" style="height:200px">
 
                 
                 <div class="swiper-slide" onclick ="infoCompania('ike');" >
-                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('papa');" >
-                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('izzi');" >
-                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="100%"/>
                 </div>
-                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
-                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
-                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
-                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
-                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="60%"/>
-                </div>
+                
                 <div class="swiper-slide" onclick ="infoCompania('movistar');" >
-                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
-                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
-                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('imss');" >
-                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('3b');" >
-                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('conuee');" >
-                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
+                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
+                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
+                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
+                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
-                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
-                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('simex');" >
-                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('roche');" >
                   <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
@@ -71,480 +460,74 @@
 
 
               </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
             </div>
           </div>
 
-          <div class="col-md-3 nopadding">
+          <div class="col-md-3 nopadding" >
             <!-- Swiper -->
-            <div class="swiper mySwiperClients">
-              <div class="swiper-wrapper">
+            <div class="swiper mySwiperClients"  style="height:200px">
+              <div class="swiper-wrapper" style="height:200px">
 
-              
-                <div class="swiper-slide" onclick ="infoCompania('papa');" >
-                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('izzi');" >
-                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
-                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
-                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
-                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
-                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
-                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="60%"/>
-                </div>
+                
+                
                 <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
-                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
-                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('imss');" >
-                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('3b');" >
-                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('conuee');" >
-                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
-                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
-                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('simex');" >
-                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('roche');" >
                   <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('ike');" >
-                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="60%"/>
-                </div>
-
-
-              </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-md-3 nopadding">
-            <!-- Swiper -->
-            <div class="swiper mySwiperClients">
-              <div class="swiper-wrapper">
-
-              
-                <div class="swiper-slide" onclick ="infoCompania('izzi');" >
-                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
-                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
-                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
-                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
-                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
-                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
-                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
-                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('imss');" >
-                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('3b');" >
-                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('conuee');" >
-                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
-                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
-                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('simex');" >
-                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('roche');" >
-                  <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('ike');" >
-                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('papa');" >
-                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="60%"/>
-                </div>
-
-
-              </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-md-3 nopadding">
-            <!-- Swiper -->
-            <div class="swiper mySwiperClients">
-              <div class="swiper-wrapper">
-
-              
-                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
-                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
-                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
-                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
-                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
-                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
-                  <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
-                  <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('imss');" >
-                  <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('3b');" >
-                  <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('conuee');" >
-                  <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
-                  <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
-                  <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('simex');" >
-                  <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('roche');" >
-                  <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('ike');" >
-                  <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="60%"/>
-                </div>
-                <div class="swiper-slide" onclick ="infoCompania('papa');" >
-                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="100%"/>
                 </div>
                 <div class="swiper-slide" onclick ="infoCompania('izzi');" >
-                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="60%"/>
+                  <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
+                  <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('gnp');" >
+                  <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('reforma');" >
+                  <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('diestro');" >
+                  <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide" onclick ="infoCompania('movistar');" >
+                  <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="100%"/>
                 </div>
 
-
               </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
             </div>
           </div>
 
 
-      </div><!--endrow-->
-      <div class="row nopadding">
-
-      <div class="col-md-3 nopadding">
-        <!-- Swiper -->
-        <div class="swiper mySwiperClients">
-          <div class="swiper-wrapper">
-
-            
-            <div class="swiper-slide" onclick ="infoCompania('gnp');" >
-              <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('reforma');" >
-              <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('diestro');" >
-              <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('movistar');" >
-              <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
-              <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
-              <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('imss');" >
-              <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('3b');" >
-              <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('conuee');" >
-              <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
-              <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
-              <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('simex');" >
-              <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('roche');" >
-              <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('ike');" >
-              <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('papa');" >
-              <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('izzi');" >
-              <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
-              <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="60%"/>
-            </div>
-
-
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-      <div class="col-md-3 nopadding">
-        <!-- Swiper -->
-        <div class="swiper mySwiperClients">
-          <div class="swiper-wrapper">
-
-            
-            <div class="swiper-slide" onclick ="infoCompania('reforma');" >
-              <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('diestro');" >
-              <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('movistar');" >
-              <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
-              <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
-              <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('imss');" >
-              <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('3b');" >
-              <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('conuee');" >
-              <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
-              <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
-              <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('simex');" >
-              <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('roche');" >
-              <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('ike');" >
-              <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('papa');" >
-              <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('izzi');" >
-              <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
-              <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('gnp');" >
-              <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="60%"/>
-            </div>
-
-
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-      <div class="col-md-3 nopadding">
-        <!-- Swiper -->
-        <div class="swiper mySwiperClients">
-          <div class="swiper-wrapper">
-
-            
-            <div class="swiper-slide" onclick ="infoCompania('diestro');" >
-              <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('movistar');" >
-              <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
-              <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
-              <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('imss');" >
-              <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('3b');" >
-              <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('conuee');" >
-              <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
-              <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
-              <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('simex');" >
-              <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('roche');" >
-              <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('ike');" >
-              <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('papa');" >
-              <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('izzi');" >
-              <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
-              <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('gnp');" >
-              <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('reforma');" >
-              <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="60%"/>
-            </div>
-
-
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-      <div class="col-md-3 nopadding">
-        <!-- Swiper -->
-        <div class="swiper mySwiperClients">
-          <div class="swiper-wrapper">
-
-            
-            <div class="swiper-slide" onclick ="infoCompania('movistar');" >
-              <img src="{{ asset('gallery/img/clientes/movistar.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('once_tv');" >
-              <img src="{{ asset('gallery/img/clientes/once_tv.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('penafiel');" >
-              <img src="{{ asset('gallery/img/clientes/penafiel.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('imss');" >
-              <img src="{{ asset('gallery/img/clientes/imss.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('3b');" >
-              <img src="{{ asset('gallery/img/clientes/3b.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('conuee');" >
-              <img src="{{ asset('gallery/img/clientes/conuee.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('lead_image');" >
-              <img src="{{ asset('gallery/img/clientes/lead_image.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('holiday_inn');" >
-              <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('simex');" >
-              <img src="{{ asset('gallery/img/clientes/simex.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('roche');" >
-              <img src="{{ asset('gallery/img/clientes/roche.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('ike');" >
-              <img src="{{ asset('gallery/img/clientes/ike.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('papa');" >
-              <img src="{{ asset('gallery/img/clientes/papa.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('izzi');" >
-              <img src="{{ asset('gallery/img/clientes/izzi.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('comercial_mexicana');" >
-              <img src="{{ asset('gallery/img/clientes/comercial_mexicana.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('gnp');" >
-              <img src="{{ asset('gallery/img/clientes/gnp.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('reforma');" >
-              <img src="{{ asset('gallery/img/clientes/reforma.png') }}" width="100%" height="60%"/>
-            </div>
-            <div class="swiper-slide" onclick ="infoCompania('diestro');" >
-              <img src="{{ asset('gallery/img/clientes/diestro.png') }}" width="100%" height="60%"/>
-            </div>
-
-
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-
-  </div><!--endrow-->
+        </div><!--endrow-->
 
     </div>
       
@@ -552,18 +535,15 @@
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script>
           var swiper = new Swiper(".mySwiperClients", {
-            spaceBetween: 30,
             effect: "cube",
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
+            grabCursor: true,
+            cubeEffect: {
+              shadow: false,
+              slideShadows: false,
+              shadowOffset: 0,
+              shadowScale: 0
             },
-            pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
-            },
-            autoplay: true,
-            speed:1000
+            autoplay: true
           });
         </script>
         <style>
@@ -572,7 +552,6 @@
             margin: 0 !important;
           }
         </style>
-
     </section>
     
     @include('en.modals.3b')
