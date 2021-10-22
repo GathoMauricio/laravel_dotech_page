@@ -2,9 +2,14 @@
     <div class="modal-full-content">
       <span onclick= "$('#modal_full_holiday_inn').css('display','none');" class="icon-cross" style="float: right;font-size:16px;font-weight:bold;cursor:pointer;"></span>
       <h3 class="text-center">Holiday Inn</h3>
+      <h4 class="text-center">Hospitality</h4>
       <p>
           <img src="{{ asset('gallery/img/clientes/holiday_inn.png') }}" alt="" style="float:left;padding:10px;"/>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vitae consectetur voluptates illum placeat quae molestias odit eum ducimus ex optio quod quos nam voluptatibus, magni dignissimos omnis nostrum! Esse!
+          <ul>
+              <li>Outsourcing contract with on-site engineer.</li>
+              <li>Network Administration, Servers.</li>
+              <li>Sale of computer equipment and consumables.</li>
+          </ul>
      </p>
     </div>
 </div>
